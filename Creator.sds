@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<desktop scan="1" scanned="20210215201128" built="20210215202011" lang="zh" pane="TLogPane" col="4" row="btOK.Text">
+  <language id="zh" autoime="0" autokeyboard="0"/>
+  <triggers>
+    <item class="TValidateTrigger" position="4"/>
+  </triggers>
+  <sheet>
+    <columns>
+      <item class="TFlagsColumn" width="38"/>
+      <item class="TPathColumn" width="192"/>
+      <item class="TTranslationStatusColumn" width="66"/>
+      <item class="TOriginalColumn" width="385"/>
+      <item class="TTranslationColumn" lang="zh" width="382"/>
+    </columns>
+  </sheet>
+  <view node="TNetFormNode" view="TFormEditor"/>
+  <view node="TXmlFileNode" view="TXmlView"/>
+  <view node="TNetMenuNode" view="TMenuEditor"/>
+  <path>
+    <item>All</item>
+    <item>Creator.exe</item>
+    <item>Forms</item>
+    <item>Creator.CreateProjectDialog</item>
+  </path>
+</desktop>

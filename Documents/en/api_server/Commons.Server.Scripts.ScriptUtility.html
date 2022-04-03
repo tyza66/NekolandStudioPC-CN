@@ -1,0 +1,698 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ScriptUtility
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ScriptUtility
+   ">
+    <meta name="generator" content="docfx 1.0.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo" id="logo" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../tutorials/intro.html" title="Tutorials">Tutorials</a>
+                      </li>
+                      <li>
+                          <a href="../api_server/main.html" title="Server API">Server API</a>
+                      </li>
+                      <li>
+                          <a href="../api_client/main.html" title="Client API">Client API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.html" title="Commons.Server" class="">Commons.Server</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.NekoEquipSlot.html" title="NekoEquipSlot" class="">NekoEquipSlot</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemOptionType.html" title="NekoItemOptionType" class="">NekoItemOptionType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemType.html" title="NekoItemType" class="">NekoItemType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoSkillType.html" title="NekoSkillType" class="">NekoSkillType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoStats.html" title="NekoStats" class="">NekoStats</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.StatusCode.html" title="StatusCode" class="">StatusCode</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.Scripts.html" title="Commons.Server.Scripts" class="">Commons.Server.Scripts</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptClan.html" title="ScriptClan" class="">ScriptClan</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptColor.html" title="ScriptColor" class="">ScriptColor</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptDropItem.html" title="ScriptDropItem" class="">ScriptDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEnemyUnitAI.html" title="ScriptEnemyUnitAI" class="">ScriptEnemyUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEventPublisher.html" title="ScriptEventPublisher" class="">ScriptEventPublisher</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptField.html" title="ScriptField" class="">ScriptField</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptObject.html" title="ScriptObject" class="">ScriptObject</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptParty.html" title="ScriptParty" class="">ScriptParty</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPetUnit.html" title="ScriptPetUnit" class="">ScriptPetUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPetUnitAI.html" title="ScriptPetUnitAI" class="">ScriptPetUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPoint.html" title="ScriptPoint" class="">ScriptPoint</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptRect.html" title="ScriptRect" class="">ScriptRect</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptRoomPlayer.html" title="ScriptRoomPlayer" class="">ScriptRoomPlayer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptServer.html" title="ScriptServer" class="">ScriptServer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnit.html" title="ScriptUnit" class="">ScriptUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnitBuff.html" title="ScriptUnitBuff" class="">ScriptUnitBuff</a>
+                          </li>
+                          <li class="active">
+                            <a href="Commons.Server.Scripts.ScriptUtility.html" title="ScriptUtility" class="active">ScriptUtility</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="network.html" title="network" class="">network</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="network.TGameAnimation.html" title="TGameAnimation" class="">TGameAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameAnimationCommand.html" title="TGameAnimationCommand" class="">TGameAnimationCommand</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameBuff.html" title="TGameBuff" class="">TGameBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCharacter.html" title="TGameCharacter" class="">TGameCharacter</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCollection.html" title="TGameCollection" class="">TGameCollection</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCommonEvent.html" title="TGameCommonEvent" class="">TGameCommonEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameDropItem.html" title="TGameDropItem" class="">TGameDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameItem.html" title="TGameItem" class="">TGameItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameJob.html" title="TGameJob" class="">TGameJob</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameLayoutPage.html" title="TGameLayoutPage" class="">TGameLayoutPage</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMapStub.html" title="TGameMapStub" class="">TGameMapStub</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMonster.html" title="TGameMonster" class="">TGameMonster</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGamePanorama.html" title="TGamePanorama" class="">TGamePanorama</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameResource.html" title="TGameResource" class="">TGameResource</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSkill.html" title="TGameSkill" class="">TGameSkill</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteAction.html" title="TGameSpriteAction" class="">TGameSpriteAction</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteActionCell.html" title="TGameSpriteActionCell" class="">TGameSpriteActionCell</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameStrings.html" title="TGameStrings" class="">TGameStrings</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameTileset.html" title="TGameTileset" class="">TGameTileset</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItem.html" title="TItem" class="">TItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItemOption.html" title="TItemOption" class="">TItemOption</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TOnlinePetData.html" title="TOnlinePetData" class="">TOnlinePetData</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TQuickSlot.html" title="TQuickSlot" class="">TQuickSlot</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Commons.Server.Scripts.ScriptUtility">
+  
+  
+  <h1 id="Commons_Server_Scripts_ScriptUtility" data-uid="Commons.Server.Scripts.ScriptUtility" class="text-break">Class ScriptUtility
+  </h1>
+  <div class="markdown level0 summary"><p><para><para>A script class with several utility functions.</para><br></para></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ScriptUtility</span></div>
+  </div>
+  <!-- <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+    </div>
+  </div> -->
+  <h6><strong>Namespace</strong>: <a class="xref" href="Commons.Server.Scripts.html">Commons.Server.Scripts</a></h6>
+  <h6><strong>Assembly</strong>: Creator.dll</h6>
+  <h5 id="Commons_Server_Scripts_ScriptUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[MoonSharpUserData]
+public class ScriptUtility</code></pre>
+  </div>
+  
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Commons_Server_Scripts_ScriptUtility_AddItemOption_" data-uid="Commons.Server.Scripts.ScriptUtility.AddItemOption*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptUtility_AddItemOption_network_TItem_System_Int32_System_Int32_System_Single_" data-uid="Commons.Server.Scripts.ScriptUtility.AddItemOption(network.TItem,System.Int32,System.Int32,System.Single)">AddItemOption(TItem, Int32, Int32, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>Add Item option</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddItemOption(TItem item, int type, int statsID, float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="network.TItem.html">TItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p><para><para>TItem to add</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p><para><para>Type Value (1: Class (+), 2: Class (%), 3: Item (+), 4: Item (%))</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">statsID</span></td>
+        <td><p><para><para>Stat ID follows the value of NekoStat.</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p><para><para>Value to change</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptUtility_AddItemOption_network_TItem_System_Int32_System_Int32_System_Single__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Get the first item's information from the inventory.&#10;local item = unit.player.GetItems()[1]&#10;&#10;-- Get the first option for the item.&#10;local option1 = item.options[1]&#10;&#10;Utility.SetItemOption(option1,option1.type,option1.statID,option1.value+1)&#10;Server.SendItemUpdated(item)&#10;&#10;Utility.AddItemOption(unit.player.GetItems()[1], 1, 3, 5)&#10;unit.player.RemoveItemOption(item,1)&#10;unit.player.SendItemUpdated(item)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptUtility_GetItemOptions_" data-uid="Commons.Server.Scripts.ScriptUtility.GetItemOptions*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptUtility_GetItemOptions_network_TItem_" data-uid="Commons.Server.Scripts.ScriptUtility.GetItemOptions(network.TItem)">GetItemOptions(TItem)</h4>
+  <div class="markdown level1 summary"><p><para><para>Get Item options</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;TItemOption&gt; GetItemOptions(TItem item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="network.TItem.html">TItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p><para><para>TItem to get</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="network.TItemOption.html">TItemOption</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptUtility_GetItemOptions_network_TItem__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Get the first item's information from the inventory.&#10;local item = unit.player.GetItems()[1]&#10;&#10;-- Get the first option for the item.&#10;local option1 = item.options[1]&#10;&#10;Utility.SetItemOption(option1,option1.type,option1.statID,option1.value+1)&#10;Server.SendItemUpdated(item)&#10;&#10;Utility.AddItemOption(unit.player.GetItems()[1], 1, 3, 5)&#10;unit.player.RemoveItemOption(item,1)&#10;unit.player.SendItemUpdated(item)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptUtility_JSONParse_" data-uid="Commons.Server.Scripts.ScriptUtility.JSONParse*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptUtility_JSONParse_System_String_" data-uid="Commons.Server.Scripts.ScriptUtility.JSONParse(System.String)">JSONParse(String)</h4>
+  <div class="markdown level1 summary"><p><para><para>Parse the JSON file and return the result.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Table JSONParse(string json)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">json</span></td>
+        <td><p><para><para>JSON format string generated based on table</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MoonSharp.Interpreter.Table</span></td>
+        <td><p><para><para>Table created based on JSON format string</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptUtility_JSONParse_System_String__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Parse a JSON string containing name and age information and print the data&#10;&#10;local jsonString = '{"name":"cat","age":50}'&#10;local jsonTable = Utility.JSONParse(jsonString)&#10;&#10;local name = jsonTable["name"]&#10;local age = jsonTable["age"]&#10;&#10;print('name=' .. name .. ' age=' .. age)&#10;&#10;-- Output: name=cat age=50</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptUtility_JSONSerialize_" data-uid="Commons.Server.Scripts.ScriptUtility.JSONSerialize*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptUtility_JSONSerialize_MoonSharp_Interpreter_Table_" data-uid="Commons.Server.Scripts.ScriptUtility.JSONSerialize(MoonSharp.Interpreter.Table)">JSONSerialize(Table)</h4>
+  <div class="markdown level1 summary"><p><para><para>Convert table to JSON string</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string JSONSerialize(Table t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MoonSharp.Interpreter.Table</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p><para><para>Target table</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p><para><para>JSON format string generated based on table</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptUtility_JSONSerialize_MoonSharp_Interpreter_Table__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Convert table containing name and age information to JSON format string and print&#10;&#10;local myTable = {}&#10;&#10;myTable["name"] = "cat"&#10;myTable["age"] = 50&#10;&#10;local jsonString = Utility.JSONSerialize(myTable)&#10;print(jsonString)&#10;&#10;-- Output: {"name":"cat","age":50}</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptUtility_RemoveItemOption_" data-uid="Commons.Server.Scripts.ScriptUtility.RemoveItemOption*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptUtility_RemoveItemOption_network_TItem_network_TItemOption_" data-uid="Commons.Server.Scripts.ScriptUtility.RemoveItemOption(network.TItem,network.TItemOption)">RemoveItemOption(TItem, TItemOption)</h4>
+  <div class="markdown level1 summary"><p><para><para>Delete option</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveItemOption(TItem item, TItemOption option)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="network.TItem.html">TItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p><para><para>The item object (TItem) for which to delete the option</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="network.TItemOption.html">TItemOption</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p><para><para>Option to remove</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><para><para>Success</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptUtility_RemoveItemOption_network_TItem_network_TItemOption__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Get the first item's information from the inventory.&#10;local item = unit.player.GetItems()[1]&#10;&#10;-- Get the first option for the item.&#10;local option1 = item.options[1]&#10;&#10;Utility.SetItemOption(option1,option1.type,option1.statID,option1.value+1)&#10;Server.SendItemUpdated(item)&#10;&#10;Utility.AddItemOption(unit.player.GetItems()[1], 1, 3, 5)&#10;unit.player.RemoveItemOption(item,1)&#10;unit.player.SendItemUpdated(item)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptUtility_RemoveItemOption_" data-uid="Commons.Server.Scripts.ScriptUtility.RemoveItemOption*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptUtility_RemoveItemOption_network_TItem_System_Int32_" data-uid="Commons.Server.Scripts.ScriptUtility.RemoveItemOption(network.TItem,System.Int32)">RemoveItemOption(TItem, Int32)</h4>
+  <div class="markdown level1 summary"><p><para><para>Delete an option at a specific index of an item</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveItemOption(TItem item, int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="network.TItem.html">TItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p><para><para>item to remove</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p><para><para>Index of the option to remove</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><para><para>Success</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptUtility_RemoveItemOption_network_TItem_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Get the first item's information from the inventory.&#10;local item = unit.player.GetItems()[1]&#10;&#10;-- Get the first option for the item.&#10;local option1 = item.options[1]&#10;&#10;Utility.SetItemOption(option1,option1.type,option1.statID,option1.value+1)&#10;Server.SendItemUpdated(item)&#10;&#10;Utility.AddItemOption(unit.player.GetItems()[1], 1, 3, 5)&#10;unit.player.RemoveItemOption(item,1)&#10;unit.player.SendItemUpdated(item)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptUtility_SetItemOption_" data-uid="Commons.Server.Scripts.ScriptUtility.SetItemOption*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptUtility_SetItemOption_network_TItemOption_System_Int32_System_Int32_System_Single_" data-uid="Commons.Server.Scripts.ScriptUtility.SetItemOption(network.TItemOption,System.Int32,System.Int32,System.Single)">SetItemOption(TItemOption, Int32, Int32, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>Modify item option</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TItemOption SetItemOption(TItemOption option, int type, int statsID, float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="network.TItemOption.html">TItemOption</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p><para><para>Item option</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p><para><para>Type Value (1: Class (+), 2: Class (%), 3: Item (+), 4: Item (%))</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">statsID</span></td>
+        <td><p><para><para>Stat ID follows the value of NekoStat.</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p><para><para>Value to change</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="network.TItemOption.html">TItemOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptUtility_SetItemOption_network_TItemOption_System_Int32_System_Int32_System_Single__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Get the first item's information from the inventory.&#10;local item = unit.player.GetItems()[1]&#10;&#10;-- Get the first option for the item.&#10;local option1 = item.options[1]&#10;&#10;Utility.SetItemOption(option1,option1.type,option1.statID,option1.value+1)&#10;Server.SendItemUpdated(item)&#10;&#10;Utility.AddItemOption(unit.player.GetItems()[1], 1, 3, 5)&#10;unit.player.RemoveItemOption(item,1)&#10;unit.player.SendItemUpdated(item)</code></pre>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

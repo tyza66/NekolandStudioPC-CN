@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#49828;&#53356;&#47549;&#53944;&#46976; </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#49828;&#53356;&#47549;&#53944;&#46976; ">
+    <meta name="generator" content="docfx 1.0.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo" id="logo" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../tutorials/intro.html" title="&#53916;&#53664;&#47532;&#50620;">&#53916;&#53664;&#47532;&#50620;</a>
+                      </li>
+                      <li>
+                          <a href="../api_server/main.html" title="&#49436;&#48260; API">&#49436;&#48260; API</a>
+                      </li>
+                      <li>
+                          <a href="../api_client/main.html" title="&#53364;&#46972;&#51060;&#50616;&#53944; API">&#53364;&#46972;&#51060;&#50616;&#53944; API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="active">
+                      <a href="intro.html" title="&#49828;&#53356;&#47549;&#53944;&#46976;" class="active">&#49828;&#53356;&#47549;&#53944;&#46976;</a>
+                    </li>
+                    <li class="">
+                      <a href="howtoapply.html" title="&#49828;&#53356;&#47549;&#53944; &#51201;&#50857; &#48169;&#48277;" class="">&#49828;&#53356;&#47549;&#53944; &#51201;&#50857; &#48169;&#48277;</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="스크립트란">스크립트란</h1>
+
+<p>네코랜드 스튜디오에서는 Lua 스크립트를 사용해 게임의 인터페이스를 조작하거나, 여러 이벤트들을 처리하는 등의 행동을 할 수 있습니다.</p>
+<p>스크립트의 종류는 크게 2가지로 <strong>서버 스크립트</strong>와 <strong>클라이언트 스크립트</strong>로 나뉘는데</p>
+<p>보통 서버 스크립트에서는 게임 내의 유저 이벤트 처리를 담당하고, 클라이언트 스크립트에서는 유저 인터페이스 조작을 담당합니다.</p>
+<hr>
+<h3 id="시작하기">시작하기</h3>
+<p>Lua 스크립트를 작성할 때 메모장처럼 간단한 에디터를 사용해 작성할 수도 있지만,</p>
+<p>Notepad++ 와 Visual Studio Code 등의 에디터를 사용하면 더 편리하게 스크립트를 작성할 수 있습니다.</p>
+<blockquote>
+<p>Notepad++ 다운로드: <a href="https://notepad-plus-plus.org/downloads/">https://notepad-plus-plus.org/downloads/</a></p>
+</blockquote>
+<blockquote>
+<p>Visual Studio Code 다운로드: <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p>
+</blockquote>
+<hr>
+<h3 id="스크립팅-규칙">스크립팅 규칙</h3>
+<p>모든 스크립트 파일들은 <em>*.lua</em> 의 확장자로 끝나야 합니다.</p>
+<pre><code>- 클라이언트 스크립트 파일이라면 프로젝트 폴더 내의 /Scripts 폴더 내에 존재해야 합니다.
+
+- 서버 스크립트 파일이라면 프로젝트 폴더 내의 /ServerScripts 폴더 내에 존재해야 합니다.
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

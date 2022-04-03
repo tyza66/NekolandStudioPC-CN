@@ -1,0 +1,983 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ScriptRoomPlayer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ScriptRoomPlayer
+   ">
+    <meta name="generator" content="docfx 1.0.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo" id="logo" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../tutorials/intro.html" title="Tutorials">Tutorials</a>
+                      </li>
+                      <li>
+                          <a href="../api_server/main.html" title="Server API">Server API</a>
+                      </li>
+                      <li>
+                          <a href="../api_client/main.html" title="Client API">Client API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.html" title="Commons.Server" class="">Commons.Server</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.NekoEquipSlot.html" title="NekoEquipSlot" class="">NekoEquipSlot</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemOptionType.html" title="NekoItemOptionType" class="">NekoItemOptionType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemType.html" title="NekoItemType" class="">NekoItemType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoSkillType.html" title="NekoSkillType" class="">NekoSkillType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoStats.html" title="NekoStats" class="">NekoStats</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.StatusCode.html" title="StatusCode" class="">StatusCode</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.Scripts.html" title="Commons.Server.Scripts" class="">Commons.Server.Scripts</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptClan.html" title="ScriptClan" class="">ScriptClan</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptColor.html" title="ScriptColor" class="">ScriptColor</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptDropItem.html" title="ScriptDropItem" class="">ScriptDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEnemyUnitAI.html" title="ScriptEnemyUnitAI" class="">ScriptEnemyUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEventPublisher.html" title="ScriptEventPublisher" class="">ScriptEventPublisher</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptField.html" title="ScriptField" class="">ScriptField</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptObject.html" title="ScriptObject" class="">ScriptObject</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptParty.html" title="ScriptParty" class="">ScriptParty</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPetUnit.html" title="ScriptPetUnit" class="">ScriptPetUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPetUnitAI.html" title="ScriptPetUnitAI" class="">ScriptPetUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPoint.html" title="ScriptPoint" class="">ScriptPoint</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptRect.html" title="ScriptRect" class="">ScriptRect</a>
+                          </li>
+                          <li class="active">
+                            <a href="Commons.Server.Scripts.ScriptRoomPlayer.html" title="ScriptRoomPlayer" class="active">ScriptRoomPlayer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptServer.html" title="ScriptServer" class="">ScriptServer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnit.html" title="ScriptUnit" class="">ScriptUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnitBuff.html" title="ScriptUnitBuff" class="">ScriptUnitBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUtility.html" title="ScriptUtility" class="">ScriptUtility</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="network.html" title="network" class="">network</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="network.TGameAnimation.html" title="TGameAnimation" class="">TGameAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameAnimationCommand.html" title="TGameAnimationCommand" class="">TGameAnimationCommand</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameBuff.html" title="TGameBuff" class="">TGameBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCharacter.html" title="TGameCharacter" class="">TGameCharacter</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCollection.html" title="TGameCollection" class="">TGameCollection</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCommonEvent.html" title="TGameCommonEvent" class="">TGameCommonEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameDropItem.html" title="TGameDropItem" class="">TGameDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameItem.html" title="TGameItem" class="">TGameItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameJob.html" title="TGameJob" class="">TGameJob</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameLayoutPage.html" title="TGameLayoutPage" class="">TGameLayoutPage</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMapStub.html" title="TGameMapStub" class="">TGameMapStub</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMonster.html" title="TGameMonster" class="">TGameMonster</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGamePanorama.html" title="TGamePanorama" class="">TGamePanorama</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameResource.html" title="TGameResource" class="">TGameResource</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSkill.html" title="TGameSkill" class="">TGameSkill</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteAction.html" title="TGameSpriteAction" class="">TGameSpriteAction</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteActionCell.html" title="TGameSpriteActionCell" class="">TGameSpriteActionCell</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameStrings.html" title="TGameStrings" class="">TGameStrings</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameTileset.html" title="TGameTileset" class="">TGameTileset</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItem.html" title="TItem" class="">TItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItemOption.html" title="TItemOption" class="">TItemOption</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TOnlinePetData.html" title="TOnlinePetData" class="">TOnlinePetData</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TQuickSlot.html" title="TQuickSlot" class="">TQuickSlot</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Commons.Server.Scripts.ScriptRoomPlayer">
+  
+  
+  <h1 id="Commons_Server_Scripts_ScriptRoomPlayer" data-uid="Commons.Server.Scripts.ScriptRoomPlayer" class="text-break">Class ScriptRoomPlayer
+  </h1>
+  <div class="markdown level0 summary"><p><para><para>The unit for managing game users on the server. It corresponds to one user.</para><br></para></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Commons.Server.Scripts.ScriptObject.html">ScriptObject</a></div>
+    <div class="level2"><span class="xref">ScriptRoomPlayer</span></div>
+  </div>
+  <!-- <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptObject._parent" text="ScriptObject._parent" alt="Commons.Server.Scripts.ScriptObject._parent"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptObject.customData" text="ScriptObject.customData" alt="Commons.Server.Scripts.ScriptObject.customData"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+    </div>
+  </div> -->
+  <h6><strong>Namespace</strong>: <a class="xref" href="Commons.Server.Scripts.html">Commons.Server.Scripts</a></h6>
+  <h6><strong>Assembly</strong>: Creator.dll</h6>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[MoonSharpUserData]
+public class ScriptRoomPlayer : ScriptObject</code></pre>
+  </div>
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_baseEXP_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.baseEXP*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_baseEXP" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.baseEXP">baseEXP</h4>
+  <div class="markdown level1 summary"><p><para><para>Total experience required up to this player level Example) Player level 3 1-10 2-20 3-30 for 30</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long baseEXP { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_baseEXP_examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- The current player's level is 3 and the experience requirement is&#10;-- Level 1 =&gt; Level 2 Required Experience: 10&#10;-- Level 2 =&gt; Level 3 Requires XP: 20&#10;-- Level 3 =&gt; Level 4 Required Experience: 30&#10;-- When the value of baseExp is 30 (= 10 + 20)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_clan_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.clan*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_clan" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.clan">clan</h4>
+  <div class="markdown level1 summary"><p><para><para>clan</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptClan clan { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptClan.html">ScriptClan</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_clanID_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.clanID*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_clanID" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.clanID">clanID</h4>
+  <div class="markdown level1 summary"><p><para><para>Clan ID</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long clanID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_exp_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.exp*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_exp" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.exp">exp</h4>
+  <div class="markdown level1 summary"><p><para><para>Current cumulative experience for this player</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long exp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_id_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.id*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_id" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.id">id</h4>
+  <div class="markdown level1 summary"><p><para><para>Unique ID of this player</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_isGM_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.isGM*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_isGM" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.isGM">isGM</h4>
+  <div class="markdown level1 summary"><p><para><para>Returns if this player is a game manager (master)</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isGM { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_level_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.level*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_level" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.level">level</h4>
+  <div class="markdown level1 summary"><p><para><para>This player's level</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int level { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_maxEXP_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.maxEXP*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_maxEXP" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.maxEXP">maxEXP</h4>
+  <div class="markdown level1 summary"><p><para><para>Total amount of experience required up to the current player's level</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long maxEXP { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_name_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.name*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_name" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.name">name</h4>
+  <div class="markdown level1 summary"><p><para><para>The name of this player</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_score_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.score*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_score" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.score">score</h4>
+  <div class="markdown level1 summary"><p><para><para>Score value set</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int score { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_team_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.team*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_team" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.team">team</h4>
+  <div class="markdown level1 summary"><p><para><para>Team value (0 to 3: 1 team to 4 teams)</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int team { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_unit_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.unit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_unit" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.unit">unit</h4>
+  <div class="markdown level1 summary"><p><para><para>The Unit ScriptUnit object this player has</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit unit { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_AddStorageItem_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.AddStorageItem*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_AddStorageItem_System_Int32_System_Int32_System_Int32_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.AddStorageItem(System.Int32,System.Int32,System.Int32)">AddStorageItem(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p><para><para>Pay Player Warehouse Item</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddStorageItem(int storageID, int itemDataID, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">storageID</span></td>
+        <td><p><para><para>Warehouse id</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">itemDataID</span></td>
+        <td><p><para><para>Item DataID</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p><para><para>Number of items</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><para><para>Item Payment Succeeded</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_AddStorageItem_System_Int32_System_Int32_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Add 20 items to the player's warehouse 0&#10;&#10;local result = unit.player.AddStorageItem(0, 5, 20)&#10;&#10;if result then&#10;    unit.SendCenterLabel("Success")&#10;else&#10;    unit.SendCenterLabel("Failed..")&#10;end</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_FireEvent_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.FireEvent*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_FireEvent_System_String_System_Object___" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.FireEvent(System.String,System.Object[])">FireEvent(String, Object[])</h4>
+  <div class="markdown level1 summary"><p><para><para>Send events for topics to the client.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FireEvent(string topic, params object[] arguments)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">topic</span></td>
+        <td><p><para><para>Topic id to send</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">arguments</span></td>
+        <td><p><para><para>Arguments to spend together</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_FireEvent_System_String_System_Object____examples">Examples</h5>
+  <pre><code class="lang-lua hljs">Same usage as ScriptServer.FireEvent()&#10;This method only sends events to this player</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_GetItem_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.GetItem*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_GetItem_System_Int64_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.GetItem(System.Int64)">GetItem(Int64)</h4>
+  <div class="markdown level1 summary"><p><para><para>Items this player has</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TItem GetItem(long id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p><para><para>Unique ID of the item</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="network.TItem.html">TItem</a></td>
+        <td><p><para><para>Imported items</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_GetItem_System_Int64__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Get an item with a unique ID of 10 from the player's inventory&#10;&#10;local myItem = unit.player.GetItem(10)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_GetItems_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.GetItems*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_GetItems" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.GetItems">GetItems()</h4>
+  <div class="markdown level1 summary"><p><para><para>The items that this player has, e.g. Titem when using the script below when the event is clicked print (unit.player.GetItems () [1])</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;TItem&gt; GetItems()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="network.TItem.html">TItem</a>&gt;</td>
+        <td><p><para><para>TItem table</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_GetItems_examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Get a list of the player's inventory items and print them all&#10;&#10;local invenItems = unit.player.GetItems()&#10;&#10;-- Handling when the warehouse is empty&#10;if #invenItems &lt;= 0 then&#10;    Server.SendSay(unit.name .. "'s inventory is empty")&#10;    return&#10;end&#10;&#10;Server.SendSay(unit.name .. "'s inventory items list")&#10;&#10;for i = 1, #invenItems do&#10;    if invenItems[i] ~= nil then&#10;        local titem = invenItems[i]&#10;        local itemData = Server.GetItem(titem.dataID)&#10;        &#10;        if itemData ~= nil and titem.count ~= 0 then&#10;            Server.SendSay(i .. ' : ' .. itemData.name .. ' ' .. titem.count .. '개')&#10;        end&#10;    end&#10;end&#10;</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_GetStorageItems_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.GetStorageItems*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_GetStorageItems_System_Int32_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.GetStorageItems(System.Int32)">GetStorageItems(Int32)</h4>
+  <div class="markdown level1 summary"><p><para><para>Get a list of players' warehouse items.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;TItem&gt; GetStorageItems(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p><para><para>Warehouse id to load</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="network.TItem.html">TItem</a>&gt;</td>
+        <td><p><para><para>List of imported items (TItem list)</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_GetStorageItems_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Get the list of items in warehouse 0 of the player and print them all&#10;&#10;local storageItems = unit.player.GetStorageItems(0)&#10;&#10;-- Handling when the warehouse is empty&#10;if #storageItems &lt;= 0 then&#10;    Server.SendSay(unit.name .. "'s warehouse 0 is empty")&#10;    return&#10;end&#10;&#10;Server.SendSay(unit.name .. "'s list of warehouse 0's items")&#10;&#10;for i = 1, #storageItems do&#10;    if storageItems[i] ~= nil then&#10;        local titem = storageItems[i]&#10;        local itemData = Server.GetItem(titem.dataID)&#10;        &#10;        if itemData ~= nil and titem.count ~= 0 then&#10;            Server.SendSay(i .. ' : ' .. itemData.name .. ' ' .. titem.count .. '개')&#10;        end&#10;    end&#10;end&#10;</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_RemoveStorageItem_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.RemoveStorageItem*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_RemoveStorageItem_System_Int32_System_Int32_System_Int32_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.RemoveStorageItem(System.Int32,System.Int32,System.Int32)">RemoveStorageItem(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p><para><para>Recover Player Warehouse Items</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveStorageItem(int storageID, int itemDataID, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">storageID</span></td>
+        <td><p><para><para>Warehouse ID</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">itemDataID</span></td>
+        <td><p><para><para>Item DataID</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p><para><para>Number of items</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><para><para>Item recovery success</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_RemoveStorageItem_System_Int32_System_Int32_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Remove 20 items from player 0's warehouse&#10;&#10;local result = unit.player.RemoveStorageItem(0, 5, 20)&#10;&#10;if result == true then&#10;    unit.SendCenterLabel("Success!")&#10;else&#10;    unit.SendCenterLabel("Failed..")&#10;end</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_SendItemUpdated_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.SendItemUpdated*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_SendItemUpdated_network_TItem_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.SendItemUpdated(network.TItem)">SendItemUpdated(TItem)</h4>
+  <div class="markdown level1 summary"><p><para><para>Update item information of current unit</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendItemUpdated(TItem item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="network.TItem.html">TItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p><para><para>Item to update</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_SendItemUpdated_network_TItem__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Notifying the client that the item with ID:10 has changed&#10;&#10;unit.player.SendItemUpdated(unit.player.GetItem(10))</code></pre>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

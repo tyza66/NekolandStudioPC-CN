@@ -1,0 +1,986 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ScriptRoomPlayer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ScriptRoomPlayer
+   ">
+    <meta name="generator" content="docfx 1.0.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo" id="logo" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../tutorials/intro.html" title="&#53916;&#53664;&#47532;&#50620;">&#53916;&#53664;&#47532;&#50620;</a>
+                      </li>
+                      <li>
+                          <a href="../api_server/main.html" title="&#49436;&#48260; API">&#49436;&#48260; API</a>
+                      </li>
+                      <li>
+                          <a href="../api_client/main.html" title="&#53364;&#46972;&#51060;&#50616;&#53944; API">&#53364;&#46972;&#51060;&#50616;&#53944; API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.html" title="Commons.Server" class="">Commons.Server</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.NekoEquipSlot.html" title="NekoEquipSlot" class="">NekoEquipSlot</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemOptionType.html" title="NekoItemOptionType" class="">NekoItemOptionType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemType.html" title="NekoItemType" class="">NekoItemType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoSkillType.html" title="NekoSkillType" class="">NekoSkillType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoStats.html" title="NekoStats" class="">NekoStats</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.StatusCode.html" title="StatusCode" class="">StatusCode</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.Scripts.html" title="Commons.Server.Scripts" class="">Commons.Server.Scripts</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptClan.html" title="ScriptClan" class="">ScriptClan</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptColor.html" title="ScriptColor" class="">ScriptColor</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptDropItem.html" title="ScriptDropItem" class="">ScriptDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEnemyUnitAI.html" title="ScriptEnemyUnitAI" class="">ScriptEnemyUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEventPublisher.html" title="ScriptEventPublisher" class="">ScriptEventPublisher</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptField.html" title="ScriptField" class="">ScriptField</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptObject.html" title="ScriptObject" class="">ScriptObject</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptParty.html" title="ScriptParty" class="">ScriptParty</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPetUnit.html" title="ScriptPetUnit" class="">ScriptPetUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPetUnitAI.html" title="ScriptPetUnitAI" class="">ScriptPetUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPoint.html" title="ScriptPoint" class="">ScriptPoint</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptRect.html" title="ScriptRect" class="">ScriptRect</a>
+                          </li>
+                          <li class="active">
+                            <a href="Commons.Server.Scripts.ScriptRoomPlayer.html" title="ScriptRoomPlayer" class="active">ScriptRoomPlayer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptServer.html" title="ScriptServer" class="">ScriptServer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnit.html" title="ScriptUnit" class="">ScriptUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnitBuff.html" title="ScriptUnitBuff" class="">ScriptUnitBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUtility.html" title="ScriptUtility" class="">ScriptUtility</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="network.html" title="network" class="">network</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="network.TGameAnimation.html" title="TGameAnimation" class="">TGameAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameAnimationCommand.html" title="TGameAnimationCommand" class="">TGameAnimationCommand</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameBuff.html" title="TGameBuff" class="">TGameBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCharacter.html" title="TGameCharacter" class="">TGameCharacter</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCollection.html" title="TGameCollection" class="">TGameCollection</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCommonEvent.html" title="TGameCommonEvent" class="">TGameCommonEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameDropItem.html" title="TGameDropItem" class="">TGameDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameItem.html" title="TGameItem" class="">TGameItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameJob.html" title="TGameJob" class="">TGameJob</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameLayoutPage.html" title="TGameLayoutPage" class="">TGameLayoutPage</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMapStub.html" title="TGameMapStub" class="">TGameMapStub</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMonster.html" title="TGameMonster" class="">TGameMonster</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGamePanorama.html" title="TGamePanorama" class="">TGamePanorama</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameResource.html" title="TGameResource" class="">TGameResource</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSkill.html" title="TGameSkill" class="">TGameSkill</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteAction.html" title="TGameSpriteAction" class="">TGameSpriteAction</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteActionCell.html" title="TGameSpriteActionCell" class="">TGameSpriteActionCell</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameStrings.html" title="TGameStrings" class="">TGameStrings</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameTileset.html" title="TGameTileset" class="">TGameTileset</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItem.html" title="TItem" class="">TItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItemOption.html" title="TItemOption" class="">TItemOption</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TOnlinePetData.html" title="TOnlinePetData" class="">TOnlinePetData</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TQuickSlot.html" title="TQuickSlot" class="">TQuickSlot</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Commons.Server.Scripts.ScriptRoomPlayer">
+  
+  
+  <h1 id="Commons_Server_Scripts_ScriptRoomPlayer" data-uid="Commons.Server.Scripts.ScriptRoomPlayer" class="text-break">Class ScriptRoomPlayer
+  </h1>
+  <div class="markdown level0 summary"><p><para><para>서버에서 한 게임 유저에 대응하는 클래스입니다.
+해당 플레이어의 정보를 가져오거나, 설정할 수 있습니다</para><br></para></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>&#49345;&#49549;</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Commons.Server.Scripts.ScriptObject.html">ScriptObject</a></div>
+    <div class="level2"><span class="xref">ScriptRoomPlayer</span></div>
+  </div>
+  <!-- <div class="inheritedMembers">
+    <h5>&#49345;&#49549;&#46108; &#47716;&#48260;</h5>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptObject._parent" text="ScriptObject._parent" alt="Commons.Server.Scripts.ScriptObject._parent"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptObject.customData" text="ScriptObject.customData" alt="Commons.Server.Scripts.ScriptObject.customData"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+    </div>
+  </div> -->
+  <h6><strong>&#45348;&#51076;&#49828;&#54168;&#51060;&#49828;</strong>: <a class="xref" href="Commons.Server.Scripts.html">Commons.Server.Scripts</a></h6>
+  <h6><strong>&#50612;&#49480;&#48660;&#47532;</strong>: Creator.dll</h6>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[MoonSharpUserData]
+public class ScriptRoomPlayer : ScriptObject</code></pre>
+  </div>
+  
+  <h3 id="properties">&#54532;&#47196;&#54140;&#54000;
+  </h3>
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_baseEXP_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.baseEXP*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_baseEXP" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.baseEXP">baseEXP</h4>
+  <div class="markdown level1 summary"><p><para><para>현재 플레이어의 레벨의 하나 전 레벨까지 필요한 총 경험치량</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long baseEXP { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">&#54532;&#47196;&#54140;&#54000; &#44050;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_baseEXP_examples">&#50696;&#51228;</h5>
+  <pre><code class="lang-lua hljs">-- 현재 플레이어의 레벨이 3 이고 경험치 요구량이&#10;-- 1 레벨 =&gt; 2 레벨 요구 경험치: 10&#10;-- 2 레벨 =&gt; 3 레벨 요구 경험치: 20&#10;-- 3 레벨 =&gt; 4 레벨 요구 경험치: 30&#10;-- 일 때 baseExp의 값은 30 (= 10 + 20)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_clan_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.clan*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_clan" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.clan">clan</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어가 속한 클랜 객체</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptClan clan { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">&#54532;&#47196;&#54140;&#54000; &#44050;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptClan.html">ScriptClan</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_clanID_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.clanID*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_clanID" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.clanID">clanID</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어가 속한 클랜의 ID</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long clanID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">&#54532;&#47196;&#54140;&#54000; &#44050;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_exp_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.exp*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_exp" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.exp">exp</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어의 현재 누적 경험치</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long exp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">&#54532;&#47196;&#54140;&#54000; &#44050;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_id_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.id*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_id" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.id">id</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어의 고유 ID</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">&#54532;&#47196;&#54140;&#54000; &#44050;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_isGM_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.isGM*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_isGM" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.isGM">isGM</h4>
+  <div class="markdown level1 summary"><p><para><para>이 플레이어가 게임 관리자(마스터)인지 반환합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isGM { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">&#54532;&#47196;&#54140;&#54000; &#44050;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_level_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.level*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_level" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.level">level</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어의 레벨</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int level { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">&#54532;&#47196;&#54140;&#54000; &#44050;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_maxEXP_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.maxEXP*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_maxEXP" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.maxEXP">maxEXP</h4>
+  <div class="markdown level1 summary"><p><para><para>현재 플레이어의 레벨까지 필요한 총 경험치 양</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long maxEXP { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">&#54532;&#47196;&#54140;&#54000; &#44050;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_name_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.name*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_name" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.name">name</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어의 이름</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">&#54532;&#47196;&#54140;&#54000; &#44050;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_score_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.score*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_score" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.score">score</h4>
+  <div class="markdown level1 summary"><p><para><para>설정한 스코어 값</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int score { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">&#54532;&#47196;&#54140;&#54000; &#44050;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_team_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.team*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_team" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.team">team</h4>
+  <div class="markdown level1 summary"><p><para><para>팀 값 (0 ~ 3 : 1팀 ~ 4팀)</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int team { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">&#54532;&#47196;&#54140;&#54000; &#44050;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_unit_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.unit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_unit" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.unit">unit</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어의 유닛(ScriptUnit) 객체</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit unit { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">&#54532;&#47196;&#54140;&#54000; &#44050;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h3 id="methods">&#54632;&#49688;
+  </h3>
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_AddStorageItem_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.AddStorageItem*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_AddStorageItem_System_Int32_System_Int32_System_Int32_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.AddStorageItem(System.Int32,System.Int32,System.Int32)">AddStorageItem(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어의 창고에 아이템을 지급합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddStorageItem(int storageID, int itemDataID, int count)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">storageID</span></td>
+        <td><p><para><para>아이템을 추가할 대상 창고 ID</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">itemDataID</span></td>
+        <td><p><para><para>아이템 ID (데이터베이스)</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p><para><para>아이템 갯수</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">&#48152;&#54872;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><para><para>아이템 지급 성공 여부 (True/False)</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_AddStorageItem_System_Int32_System_Int32_System_Int32__examples">&#50696;&#51228;</h5>
+  <pre><code class="lang-lua hljs">-- 플레이어의 0번 창고에 5번 아이템을 20개 추가합니다&#10;&#10;local result = unit.player.AddStorageItem(0, 5, 20)&#10;&#10;if result then&#10;    unit.SendCenterLabel("추가 성공!")&#10;else&#10;    unit.SendCenterLabel("추가 실패..")&#10;end</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_FireEvent_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.FireEvent*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_FireEvent_System_String_System_Object___" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.FireEvent(System.String,System.Object[])">FireEvent(String, Object[])</h4>
+  <div class="markdown level1 summary"><p><para><para>클라이언트로 Topic에 대한 이벤트를 보냅니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FireEvent(string topic, params object[] arguments)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">topic</span></td>
+        <td><p><para><para>보낼 Topic</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">arguments</span></td>
+        <td><p><para><para>함께 보낼 인자들</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_FireEvent_System_String_System_Object____examples">&#50696;&#51228;</h5>
+  <pre><code class="lang-lua hljs">-- ScriptServer.FireEvent() 와 사용법이 같지만&#10;-- 해당 메서드는 이 플레이어에게만 이벤트를 보낸다</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_GetItem_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.GetItem*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_GetItem_System_Int64_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.GetItem(System.Int64)">GetItem(Int64)</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어의 아이템 목록에서
+ID에 맞는 아이템을 가져옵니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TItem GetItem(long id)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p><para><para>해당 아이템의 고유 ID</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">&#48152;&#54872;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="network.TItem.html">TItem</a></td>
+        <td><p><para><para>가져온 아이템</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_GetItem_System_Int64__examples">&#50696;&#51228;</h5>
+  <pre><code class="lang-lua hljs">-- 플레이어의 인벤토리에서 고유 ID가 10인 아이템 가져오기&#10;&#10;local myItem = unit.player.GetItem(10)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_GetItems_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.GetItems*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_GetItems" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.GetItems">GetItems()</h4>
+  <div class="markdown level1 summary"><p><para><para>현재 플레이어가 가지고 있는 아이템들을
+리스트 형식으로 반환합니다.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;TItem&gt; GetItems()</code></pre>
+  </div>
+  <h5 class="returns">&#48152;&#54872;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="network.TItem.html">TItem</a>&gt;</td>
+        <td><p><para><para>TItem 테이블</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_GetItems_examples">&#50696;&#51228;</h5>
+  <pre><code class="lang-lua hljs">-- 플레이어의 인벤토리 아이템 목록을 가져와서 모두 출력해준다&#10;&#10;local invenItems = unit.player.GetItems()&#10;&#10;-- 창고가 비었을 때의 처리&#10;if #invenItems &lt;= 0 then&#10;    Server.SendSay(unit.name .. ' 님의 인벤토리는 비어있습니다')&#10;    return&#10;end&#10;&#10;Server.SendSay(unit.name .. ' 님의 인벤토리 아이템 목록')&#10;&#10;for i = 1, #invenItems do&#10;    if invenItems[i] ~= nil then&#10;        local titem = invenItems[i]&#10;        local itemData = Server.GetItem(titem.dataID)&#10;        &#10;        if itemData ~= nil and titem.count ~= 0 then&#10;            Server.SendSay(i .. ' : ' .. itemData.name .. ' ' .. titem.count .. '개')&#10;        end&#10;    end&#10;end&#10;</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_GetStorageItems_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.GetStorageItems*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_GetStorageItems_System_Int32_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.GetStorageItems(System.Int32)">GetStorageItems(Int32)</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어의 창고 아이템 목록을 가져옵니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;TItem&gt; GetStorageItems(int id)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p><para><para>불러올 창고 ID</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">&#48152;&#54872;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="network.TItem.html">TItem</a>&gt;</td>
+        <td><p><para><para>가져온 아이템 리스트 (TItem 리스트)</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_GetStorageItems_System_Int32__examples">&#50696;&#51228;</h5>
+  <pre><code class="lang-lua hljs">-- 플레이어의 0번 창고 아이템 목록을 가져와서 모두 출력해준다&#10;&#10;local storageItems = unit.player.GetStorageItems(0)&#10;&#10;-- 창고가 비었을 때의 처리&#10;if #storageItems &lt;= 0 then&#10;    Server.SendSay(unit.name .. ' 님의 0번 창고는 비어있습니다')&#10;    return&#10;end&#10;&#10;Server.SendSay(unit.name .. ' 님의 0번 창고 아이템 목록')&#10;&#10;for i = 1, #storageItems do&#10;    if storageItems[i] ~= nil then&#10;        local titem = storageItems[i]&#10;        local itemData = Server.GetItem(titem.dataID)&#10;        &#10;        if itemData ~= nil and titem.count ~= 0 then&#10;            Server.SendSay(i .. ' : ' .. itemData.name .. ' ' .. titem.count .. '개')&#10;        end&#10;    end&#10;end&#10;</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_RemoveStorageItem_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.RemoveStorageItem*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_RemoveStorageItem_System_Int32_System_Int32_System_Int32_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.RemoveStorageItem(System.Int32,System.Int32,System.Int32)">RemoveStorageItem(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어의 창고에서 아이템을 제거합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveStorageItem(int storageID, int itemDataID, int count)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">storageID</span></td>
+        <td><p><para><para>아이템을 제거할 대상 창고 ID</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">itemDataID</span></td>
+        <td><p><para><para>아이템 ID (데이터베이스)</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p><para><para>아이템 갯수</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">&#48152;&#54872;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><para><para>아이템 회수 성공 여부 (True/False)</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_RemoveStorageItem_System_Int32_System_Int32_System_Int32__examples">&#50696;&#51228;</h5>
+  <pre><code class="lang-lua hljs">-- 플레이어의 0번 창고에서 5번 아이템을 20개 제거합니다&#10;&#10;local result = unit.player.RemoveStorageItem(0, 5, 20)&#10;&#10;if result == true then&#10;    unit.SendCenterLabel("제거 성공!")&#10;else&#10;    unit.SendCenterLabel("제거 실패..")&#10;end</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptRoomPlayer_SendItemUpdated_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.SendItemUpdated*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptRoomPlayer_SendItemUpdated_network_TItem_" data-uid="Commons.Server.Scripts.ScriptRoomPlayer.SendItemUpdated(network.TItem)">SendItemUpdated(TItem)</h4>
+  <div class="markdown level1 summary"><p><para><para>현재 유닛이 가진 아이템 정보를 갱신합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendItemUpdated(TItem item)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="network.TItem.html">TItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p><para><para>갱신할 대상 아이템</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptRoomPlayer_SendItemUpdated_network_TItem__examples">&#50696;&#51228;</h5>
+  <pre><code class="lang-lua hljs">-- 클라이언트에게 ID:10의 아이템이 변경되었다고 알림&#10;&#10;unit.player.SendItemUpdated(unit.player.GetItem(10))</code></pre>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

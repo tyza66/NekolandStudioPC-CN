@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>How to apply the script </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="How to apply the script ">
+    <meta name="generator" content="docfx 1.0.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo" id="logo" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../tutorials/intro.html" title="Tutorials">Tutorials</a>
+                      </li>
+                      <li>
+                          <a href="../api_server/main.html" title="Server API">Server API</a>
+                      </li>
+                      <li>
+                          <a href="../api_client/main.html" title="Client API">Client API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="intro.html" title="What is a script" class="">What is a script</a>
+                    </li>
+                    <li class="active">
+                      <a href="howtoapply.html" title="How to apply the script" class="active">How to apply the script</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="how-to-apply-the-script">How to apply the script</h1>
+
+<h3 id="apply-directly-to-a-file">Apply directly to a file</h3>
+<p>This method is used when the script needs a script that should run when the server is started or when the client is turned on.</p>
+<p>First, the server script is in the /ServerScripts folder under the project folder,
+Client scripts are applied by adding <em>*.lua</em> files to the /Scripts folder under the project folder.</p>
+<pre><code>EX) Create a file after creating a file called Hello.lua under the /ServerScripts folder
+</code></pre>
+<hr>
+<h3 id="apply-to-events">Apply to events</h3>
+<p>This method is used when you need a script to run when the unit touches an event.</p>
+<p>First, create an event unit, apply the'script' event to the unit, and write the necessary script to apply.</p>
+<p>When executing a script on an event unit, the unit and event keywords are added to the local table.</p>
+<p>unit represents the player unit that fired this event, and event represents the event unit. However, the unit keyword cannot be used if there is no unit that triggered the event, such as automatic start, when the event start condition is a map.</p>
+<pre><code>EX) Add a'script' event to the event unit that starts when the button is pressed.
+Enter the unit.SendCenterLabel(&quot;Hello!&quot;) script
+</code></pre>
+<hr>
+<h3 id="using-the-script-command">Using the /script command</h3>
+<p>This method is used when you simply want to test the script.
+/script [Script content] If you enter it into the chat window, the script content is executed.</p>
+<p>If you run the script in that way, you can use the me and unit keywords added to the local table. me is the player who entered the command and unit is the player unit that entered the command.</p>
+<pre><code>EX) /script unit.SendCenterLabel(&quot;Hello!&quot;)
+</code></pre>
+<blockquote>
+<p>You have administrator privileges for the game or can only use it in a test environment.</p>
+</blockquote>
+<hr>
+<h3 id="script-in-damage-formula">Script in Damage Formula</h3>
+<p>In the database, there is a space for entering damage formulas such as skills and status, and the damage formulas written here are also executed as scripts.</p>
+<p>Local tables in the formula include a, b, critical, level, etc.</p>
+<p>a is the attacker, b is the defender, critical is critical or not, and level is the skill level.
+The damage formula used in database-state is only a and b in the local table</p>
+<pre><code>EX) a.atk-b.def
+</code></pre>
+<hr>
+<h2 id="information">Information</h2>
+<blockquote>
+<p>The unit keyword exists in the local table in the space where you enter the script to find the player unit that is usually the subject.</p>
+</blockquote>
+<blockquote>
+<p>Variables created in global space are shared for all script executions.</p>
+<p>It is also possible to define a function in a script that is applied to a file and use the function in a script when an event is executed.</p>
+</blockquote>
+<blockquote>
+<p>Server scripts and client scripts have different uses and usages, and even scripts executed within the same event may cause errors depending on the server and client.
+All of the examples in this document use server scripts as examples.</p>
+<p>EX) Enter the server script in the client script field</p>
+</blockquote>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

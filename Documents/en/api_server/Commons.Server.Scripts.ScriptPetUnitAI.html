@@ -1,0 +1,894 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ScriptPetUnitAI
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ScriptPetUnitAI
+   ">
+    <meta name="generator" content="docfx 1.0.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo" id="logo" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../tutorials/intro.html" title="Tutorials">Tutorials</a>
+                      </li>
+                      <li>
+                          <a href="../api_server/main.html" title="Server API">Server API</a>
+                      </li>
+                      <li>
+                          <a href="../api_client/main.html" title="Client API">Client API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.html" title="Commons.Server" class="">Commons.Server</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.NekoEquipSlot.html" title="NekoEquipSlot" class="">NekoEquipSlot</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemOptionType.html" title="NekoItemOptionType" class="">NekoItemOptionType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemType.html" title="NekoItemType" class="">NekoItemType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoSkillType.html" title="NekoSkillType" class="">NekoSkillType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoStats.html" title="NekoStats" class="">NekoStats</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.StatusCode.html" title="StatusCode" class="">StatusCode</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.Scripts.html" title="Commons.Server.Scripts" class="">Commons.Server.Scripts</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptClan.html" title="ScriptClan" class="">ScriptClan</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptColor.html" title="ScriptColor" class="">ScriptColor</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptDropItem.html" title="ScriptDropItem" class="">ScriptDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEnemyUnitAI.html" title="ScriptEnemyUnitAI" class="">ScriptEnemyUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEventPublisher.html" title="ScriptEventPublisher" class="">ScriptEventPublisher</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptField.html" title="ScriptField" class="">ScriptField</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptObject.html" title="ScriptObject" class="">ScriptObject</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptParty.html" title="ScriptParty" class="">ScriptParty</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPetUnit.html" title="ScriptPetUnit" class="">ScriptPetUnit</a>
+                          </li>
+                          <li class="active">
+                            <a href="Commons.Server.Scripts.ScriptPetUnitAI.html" title="ScriptPetUnitAI" class="active">ScriptPetUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPoint.html" title="ScriptPoint" class="">ScriptPoint</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptRect.html" title="ScriptRect" class="">ScriptRect</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptRoomPlayer.html" title="ScriptRoomPlayer" class="">ScriptRoomPlayer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptServer.html" title="ScriptServer" class="">ScriptServer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnit.html" title="ScriptUnit" class="">ScriptUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnitBuff.html" title="ScriptUnitBuff" class="">ScriptUnitBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUtility.html" title="ScriptUtility" class="">ScriptUtility</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="network.html" title="network" class="">network</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="network.TGameAnimation.html" title="TGameAnimation" class="">TGameAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameAnimationCommand.html" title="TGameAnimationCommand" class="">TGameAnimationCommand</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameBuff.html" title="TGameBuff" class="">TGameBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCharacter.html" title="TGameCharacter" class="">TGameCharacter</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCollection.html" title="TGameCollection" class="">TGameCollection</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCommonEvent.html" title="TGameCommonEvent" class="">TGameCommonEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameDropItem.html" title="TGameDropItem" class="">TGameDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameItem.html" title="TGameItem" class="">TGameItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameJob.html" title="TGameJob" class="">TGameJob</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameLayoutPage.html" title="TGameLayoutPage" class="">TGameLayoutPage</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMapStub.html" title="TGameMapStub" class="">TGameMapStub</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMonster.html" title="TGameMonster" class="">TGameMonster</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGamePanorama.html" title="TGamePanorama" class="">TGamePanorama</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameResource.html" title="TGameResource" class="">TGameResource</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSkill.html" title="TGameSkill" class="">TGameSkill</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteAction.html" title="TGameSpriteAction" class="">TGameSpriteAction</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteActionCell.html" title="TGameSpriteActionCell" class="">TGameSpriteActionCell</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameStrings.html" title="TGameStrings" class="">TGameStrings</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameTileset.html" title="TGameTileset" class="">TGameTileset</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItem.html" title="TItem" class="">TItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItemOption.html" title="TItemOption" class="">TItemOption</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TOnlinePetData.html" title="TOnlinePetData" class="">TOnlinePetData</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TQuickSlot.html" title="TQuickSlot" class="">TQuickSlot</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Commons.Server.Scripts.ScriptPetUnitAI">
+  
+  
+  <h1 id="Commons_Server_Scripts_ScriptPetUnitAI" data-uid="Commons.Server.Scripts.ScriptPetUnitAI" class="text-break">Class ScriptPetUnitAI
+  </h1>
+  <div class="markdown level0 summary"><p><para><para>This is a class to access and control the pet's AI.</para><br></para></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Commons.Server.Scripts.ScriptObject.html">ScriptObject</a></div>
+    <div class="level2"><span class="xref">Commons.Server.Scripts.ScriptUnitAI</span></div>
+    <div class="level3"><span class="xref">ScriptPetUnitAI</span></div>
+  </div>
+  <!-- <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptObject._parent" text="ScriptObject._parent" alt="Commons.Server.Scripts.ScriptObject._parent"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptObject.customData" text="ScriptObject.customData" alt="Commons.Server.Scripts.ScriptObject.customData"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+    </div>
+  </div> -->
+  <h6><strong>Namespace</strong>: <a class="xref" href="Commons.Server.Scripts.html">Commons.Server.Scripts</a></h6>
+  <h6><strong>Assembly</strong>: Creator.dll</h6>
+  <h5 id="Commons_Server_Scripts_ScriptPetUnitAI_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[MoonSharpUserData]
+public class ScriptPetUnitAI : ScriptUnitAI</code></pre>
+  </div>
+  <h5 id="Commons_Server_Scripts_ScriptPetUnitAI_examples"><strong>Examples</strong></h5>
+  <pre><code class="lang-lua hljs">-- Example&#10;-- Pet AI designation&#10;&#10;Server.SetPetAI(&#10;        21, -- Character ID to be pet&#10;        function(pet,ai,event)&#10;&#10;                -- Executed when registering for the first PetAI&#10;                if(event == AI_INIT) then&#10;                        ai.customData.timer = 1;&#10;                end&#10;&#10;                -- Every 2 seconds&#10;                if (event == AI_UPDATE) then&#10;                        -- Follow the owner as far as 200&#10;                        -- Teleports to the owner's position as far as 400&#10;                        -- ai.SetFollowMaster(true, 200, 400)&#10;&#10;                        -- If there is no target, follow the owner&#10;                        if (ai.GetTargetUnit() == nil) then&#10;                                ai.SetFollowMaster(true, 200, 400)&#10;                        end&#10;&#10;                        -- Basic 100, 200&#10;                        -- ai.SetFollowMaster(true)&#10;&#10;                        -- Target the nearest enemy unit&#10;                        ai.SetNearTarget(2, 200) &#10;&#10;                        -- If the pet's target exists, use the skill&#10;                        -- Skills are basically fired towards the target&#10;                        if (ai.GetTargetUnit() ~=nil) then&#10;                                -- When the target is set, it stops following&#10;                                ai.SetFollowMaster(false)&#10;                                ai.StopMove()&#10;&#10;                                -- When target is decided, attack while following target&#10;                                ai.MoveToPosition(ai.GetTargetUnit().x,ai.GetTargetUnit().y)&#10;                                -- Add a buff to the owner&#10;                                ai.AddMasterBuff(15)&#10;                                -- Fire in the direction of the target&#10;                                ai.UseSkill(23) &#10;                                -- Fire from the pet's master position to the target&#10;                                ai.UseSkill(&#10;                                22&#10;                                ,nil&#10;                                ,Point(ai.GetMasterUnit().x,ai.GetMasterUnit().y))&#10;                        end&#10;&#10;                        -- Timer using custom data Once around 6 seconds, drop items are acquired&#10;                        ai.customData.timer = ai.customData.timer + 1;&#10;                        if (ai.customData.timer == 3) then&#10;                                -- Drop items within a radius of 100&#10;                                ai.AcquireNearDropItem(100)&#10;                                ai.customData.timer = 0;&#10;                        end&#10;                end&#10;        end&#10;)</code></pre>
+
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_AcquireNearDropItem_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.AcquireNearDropItem*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_AcquireNearDropItem_System_Single_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.AcquireNearDropItem(System.Single)">AcquireNearDropItem(Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>Eat the nearest item within the selected distance</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AcquireNearDropItem(float dist = 200F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dist</span></td>
+        <td><p><para><para>Unit distance to search default 200</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_AddMasterBuff_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.AddMasterBuff*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_AddMasterBuff_System_Int32_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.AddMasterBuff(System.Int32)">AddMasterBuff(Int32)</h4>
+  <div class="markdown level1 summary"><p><para><para>Add buff to player unit.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddMasterBuff(int buffID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">buffID</span></td>
+        <td><p><para><para>Buff ID</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_Distance_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.Distance*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_Distance_System_Single_System_Single_System_Single_System_Single_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.Distance(System.Single,System.Single,System.Single,System.Single)">Distance(Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>Calculate and return the distance between two units</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Distance(float pos1X, float pos1Y, float pos2X, float pos2Y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos1X</span></td>
+        <td><p><para><para>Coordinate X of 1</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos1Y</span></td>
+        <td><p><para><para>Coordinate Y of 1</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos2X</span></td>
+        <td><p><para><para>Coordinate x of 2</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos2Y</span></td>
+        <td><p><para><para>Coordinate y of 2</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_DistanceSquard_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.DistanceSquard*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_DistanceSquard_System_Single_System_Single_System_Single_System_Single_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.DistanceSquard(System.Single,System.Single,System.Single,System.Single)">DistanceSquard(Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>Calculates the distance between two units and returns the squared value</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DistanceSquard(float pos1X, float pos1Y, float pos2X, float pos2Y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos1X</span></td>
+        <td><p><para><para>Coordinate X of 1</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos1Y</span></td>
+        <td><p><para><para>Coordinate y of 1</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos2X</span></td>
+        <td><p><para><para>Coordinate x of 2</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos2Y</span></td>
+        <td><p><para><para>Coordinate y of 2</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_GetMasterUnit_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.GetMasterUnit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_GetMasterUnit" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.GetMasterUnit">GetMasterUnit()</h4>
+  <div class="markdown level1 summary"><p><para><para>Take the master unit of the current pet.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit GetMasterUnit()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_GetTargetUnit_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.GetTargetUnit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_GetTargetUnit" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.GetTargetUnit">GetTargetUnit()</h4>
+  <div class="markdown level1 summary"><p><para><para>Get the unit of target of current pet</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit GetTargetUnit()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_GetTargetUnitID_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.GetTargetUnitID*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_GetTargetUnitID" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.GetTargetUnitID">GetTargetUnitID()</h4>
+  <div class="markdown level1 summary"><p><para><para>Get the target id of current pet</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long GetTargetUnitID()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_MoveToPosition_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.MoveToPosition*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_MoveToPosition_System_Single_System_Single_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.MoveToPosition(System.Single,System.Single)">MoveToPosition(Single, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>Move the pet to that location</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveToPosition(float posx, float posy)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">posx</span></td>
+        <td><p><para><para>The location x to move </para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">posy</span></td>
+        <td><p><para><para>The location y to move </para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_SetFollowMaster_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetFollowMaster*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_SetFollowMaster_System_Boolean_System_Single_System_Single_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetFollowMaster(System.Boolean,System.Single,System.Single)">SetFollowMaster(Boolean, Single, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>Choose whether to follow the player unit</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFollowMaster(bool enable, float followDist = 100F, float teleportDist = 200F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enable</span></td>
+        <td><p><para><para>Activation true or false </para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">followDist</span></td>
+        <td><p><para><para>Set how far the pet and owner will follow</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">teleportDist</span></td>
+        <td><p><para><para>Set how far the pet and the owner will teleport to the owner's position</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_SetNearTarget_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetNearTarget*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_SetNearTarget_System_Int32_System_Single_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetNearTarget(System.Int32,System.Single)">SetNearTarget(Int32, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>Target the unit closest to the map with the current monster.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetNearTarget(int findType = -1, float dist = 200F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">findType</span></td>
+        <td><p><para><para>Unit type to search for 0 : Player, 1 : Event Unit, 2 : Enemy</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dist</span></td>
+        <td><p><para><para>Unit distance to search default 200</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_SetTargetUnit_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetTargetUnit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_SetTargetUnit_Commons_Server_Scripts_ScriptUnit_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetTargetUnit(Commons.Server.Scripts.ScriptUnit)">SetTargetUnit(ScriptUnit)</h4>
+  <div class="markdown level1 summary"><p><para><para>Set the target of the pet.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTargetUnit(ScriptUnit unit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><span class="parametername">unit</span></td>
+        <td><p><para><para>Unit to be targeted to the pet</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_SetTargetUnitID_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetTargetUnitID*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_SetTargetUnitID_System_Int64_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetTargetUnitID(System.Int64)">SetTargetUnitID(Int64)</h4>
+  <div class="markdown level1 summary"><p><para><para>Set the target with the unit ID.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTargetUnitID(long unitID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">unitID</span></td>
+        <td><p><para><para>Unit ID to be targeted to the pet</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_StopMove_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.StopMove*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_StopMove" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.StopMove">StopMove()</h4>
+  <div class="markdown level1 summary"><p><para><para>Stop the moving pet</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopMove()</code></pre>
+  </div>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_UseSkill_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.UseSkill*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_UseSkill_System_Int32_Commons_Server_Scripts_ScriptPoint_Commons_Server_Scripts_ScriptPoint_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.UseSkill(System.Int32,Commons.Server.Scripts.ScriptPoint,Commons.Server.Scripts.ScriptPoint)">UseSkill(Int32, ScriptPoint, ScriptPoint)</h4>
+  <div class="markdown level1 summary"><p><para><para>Pets use a skill.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UseSkill(int skillID, ScriptPoint dir = null, ScriptPoint pos = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">skillID</span></td>
+        <td><p><para><para>Skill ID to use </para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptPoint.html">ScriptPoint</a></td>
+        <td><span class="parametername">dir</span></td>
+        <td><p><para><para>Set direction of skill</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptPoint.html">ScriptPoint</a></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p><para><para>Set starting position of skill</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_UseSkillToPosition_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.UseSkillToPosition*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_UseSkillToPosition_System_Int32_Commons_Server_Scripts_ScriptPoint_Commons_Server_Scripts_ScriptPoint_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.UseSkillToPosition(System.Int32,Commons.Server.Scripts.ScriptPoint,Commons.Server.Scripts.ScriptPoint)">UseSkillToPosition(Int32, ScriptPoint, ScriptPoint)</h4>
+  <div class="markdown level1 summary"><p><para><para>Pets use a skill.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UseSkillToPosition(int skillID, ScriptPoint dirPosition = null, ScriptPoint pos = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">skillID</span></td>
+        <td><p><para><para>Skill ID to use </para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptPoint.html">ScriptPoint</a></td>
+        <td><span class="parametername">dirPosition</span></td>
+        <td><p><para><para>Set location where skill goes</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptPoint.html">ScriptPoint</a></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p><para><para>Starting position of the skill</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

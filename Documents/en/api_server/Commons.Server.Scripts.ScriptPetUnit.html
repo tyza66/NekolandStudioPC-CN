@@ -1,0 +1,960 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ScriptPetUnit
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ScriptPetUnit
+   ">
+    <meta name="generator" content="docfx 1.0.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo" id="logo" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../tutorials/intro.html" title="Tutorials">Tutorials</a>
+                      </li>
+                      <li>
+                          <a href="../api_server/main.html" title="Server API">Server API</a>
+                      </li>
+                      <li>
+                          <a href="../api_client/main.html" title="Client API">Client API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.html" title="Commons.Server" class="">Commons.Server</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.NekoEquipSlot.html" title="NekoEquipSlot" class="">NekoEquipSlot</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemOptionType.html" title="NekoItemOptionType" class="">NekoItemOptionType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemType.html" title="NekoItemType" class="">NekoItemType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoSkillType.html" title="NekoSkillType" class="">NekoSkillType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoStats.html" title="NekoStats" class="">NekoStats</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.StatusCode.html" title="StatusCode" class="">StatusCode</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.Scripts.html" title="Commons.Server.Scripts" class="">Commons.Server.Scripts</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptClan.html" title="ScriptClan" class="">ScriptClan</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptColor.html" title="ScriptColor" class="">ScriptColor</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptDropItem.html" title="ScriptDropItem" class="">ScriptDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEnemyUnitAI.html" title="ScriptEnemyUnitAI" class="">ScriptEnemyUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEventPublisher.html" title="ScriptEventPublisher" class="">ScriptEventPublisher</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptField.html" title="ScriptField" class="">ScriptField</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptObject.html" title="ScriptObject" class="">ScriptObject</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptParty.html" title="ScriptParty" class="">ScriptParty</a>
+                          </li>
+                          <li class="active">
+                            <a href="Commons.Server.Scripts.ScriptPetUnit.html" title="ScriptPetUnit" class="active">ScriptPetUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPetUnitAI.html" title="ScriptPetUnitAI" class="">ScriptPetUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPoint.html" title="ScriptPoint" class="">ScriptPoint</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptRect.html" title="ScriptRect" class="">ScriptRect</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptRoomPlayer.html" title="ScriptRoomPlayer" class="">ScriptRoomPlayer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptServer.html" title="ScriptServer" class="">ScriptServer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnit.html" title="ScriptUnit" class="">ScriptUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnitBuff.html" title="ScriptUnitBuff" class="">ScriptUnitBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUtility.html" title="ScriptUtility" class="">ScriptUtility</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="network.html" title="network" class="">network</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="network.TGameAnimation.html" title="TGameAnimation" class="">TGameAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameAnimationCommand.html" title="TGameAnimationCommand" class="">TGameAnimationCommand</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameBuff.html" title="TGameBuff" class="">TGameBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCharacter.html" title="TGameCharacter" class="">TGameCharacter</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCollection.html" title="TGameCollection" class="">TGameCollection</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCommonEvent.html" title="TGameCommonEvent" class="">TGameCommonEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameDropItem.html" title="TGameDropItem" class="">TGameDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameItem.html" title="TGameItem" class="">TGameItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameJob.html" title="TGameJob" class="">TGameJob</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameLayoutPage.html" title="TGameLayoutPage" class="">TGameLayoutPage</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMapStub.html" title="TGameMapStub" class="">TGameMapStub</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMonster.html" title="TGameMonster" class="">TGameMonster</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGamePanorama.html" title="TGamePanorama" class="">TGamePanorama</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameResource.html" title="TGameResource" class="">TGameResource</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSkill.html" title="TGameSkill" class="">TGameSkill</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteAction.html" title="TGameSpriteAction" class="">TGameSpriteAction</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteActionCell.html" title="TGameSpriteActionCell" class="">TGameSpriteActionCell</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameStrings.html" title="TGameStrings" class="">TGameStrings</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameTileset.html" title="TGameTileset" class="">TGameTileset</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItem.html" title="TItem" class="">TItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItemOption.html" title="TItemOption" class="">TItemOption</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TOnlinePetData.html" title="TOnlinePetData" class="">TOnlinePetData</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TQuickSlot.html" title="TQuickSlot" class="">TQuickSlot</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Commons.Server.Scripts.ScriptPetUnit">
+  
+  
+  <h1 id="Commons_Server_Scripts_ScriptPetUnit" data-uid="Commons.Server.Scripts.ScriptPetUnit" class="text-break">Class ScriptPetUnit
+  </h1>
+  <div class="markdown level0 summary"><p><para><para>Script class representing the pet.</para><br></para></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Commons.Server.Scripts.ScriptObject.html">ScriptObject</a></div>
+    <div class="level2"><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></div>
+    <div class="level3"><span class="xref">ScriptPetUnit</span></div>
+  </div>
+  <!-- <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.id" text="ScriptUnit.id" alt="Commons.Server.Scripts.ScriptUnit.id"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.isGM" text="ScriptUnit.isGM" alt="Commons.Server.Scripts.ScriptUnit.isGM"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.monsterID" text="ScriptUnit.monsterID" alt="Commons.Server.Scripts.ScriptUnit.monsterID"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.monsterData" text="ScriptUnit.monsterData" alt="Commons.Server.Scripts.ScriptUnit.monsterData"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.partyID" text="ScriptUnit.partyID" alt="Commons.Server.Scripts.ScriptUnit.partyID"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.name" text="ScriptUnit.name" alt="Commons.Server.Scripts.ScriptUnit.name"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.type" text="ScriptUnit.type" alt="Commons.Server.Scripts.ScriptUnit.type"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.teamTag" text="ScriptUnit.teamTag" alt="Commons.Server.Scripts.ScriptUnit.teamTag"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.nameColor" text="ScriptUnit.nameColor" alt="Commons.Server.Scripts.ScriptUnit.nameColor"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.x" text="ScriptUnit.x" alt="Commons.Server.Scripts.ScriptUnit.x"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.y" text="ScriptUnit.y" alt="Commons.Server.Scripts.ScriptUnit.y"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.dirX" text="ScriptUnit.dirX" alt="Commons.Server.Scripts.ScriptUnit.dirX"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.dirY" text="ScriptUnit.dirY" alt="Commons.Server.Scripts.ScriptUnit.dirY"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.gameMoney" text="ScriptUnit.gameMoney" alt="Commons.Server.Scripts.ScriptUnit.gameMoney"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.player" text="ScriptUnit.player" alt="Commons.Server.Scripts.ScriptUnit.player"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.buffs" text="ScriptUnit.buffs" alt="Commons.Server.Scripts.ScriptUnit.buffs"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SpawnAt(System.Single,System.Single)" text="ScriptUnit.SpawnAt(Single, Single)" alt="Commons.Server.Scripts.ScriptUnit.SpawnAt(System.Single, System.Single)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SpawnAtFieldID(System.Int32,System.Single,System.Single,System.Int32)" text="ScriptUnit.SpawnAtFieldID(Int32, Single, Single, Int32)" alt="Commons.Server.Scripts.ScriptUnit.SpawnAtFieldID(System.Int32, System.Single, System.Single, System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SpawnAtField(Commons.Server.Field,System.Single,System.Single)" text="ScriptUnit.SpawnAtField(Field, Single, Single)" alt="Commons.Server.Scripts.ScriptUnit.SpawnAtField(Commons.Server.Field, System.Single, System.Single)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.field" text="ScriptUnit.field" alt="Commons.Server.Scripts.ScriptUnit.field"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.initField" text="ScriptUnit.initField" alt="Commons.Server.Scripts.ScriptUnit.initField"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.RespawnAt(System.Single,System.Single)" text="ScriptUnit.RespawnAt(Single, Single)" alt="Commons.Server.Scripts.ScriptUnit.RespawnAt(System.Single, System.Single)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SendUpdated(System.Boolean)" text="ScriptUnit.SendUpdated(Boolean)" alt="Commons.Server.Scripts.ScriptUnit.SendUpdated(System.Boolean)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SetPetUnit(Commons.Server.Scripts.ScriptUnit)" text="ScriptUnit.SetPetUnit(ScriptUnit)" alt="Commons.Server.Scripts.ScriptUnit.SetPetUnit(Commons.Server.Scripts.ScriptUnit)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SerVar(System.Int32,System.Int64)" text="ScriptUnit.SerVar(Int32, Int64)" alt="Commons.Server.Scripts.ScriptUnit.SerVar(System.Int32, System.Int64)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SetVar(System.Int32,System.Int64)" text="ScriptUnit.SetVar(Int32, Int64)" alt="Commons.Server.Scripts.ScriptUnit.SetVar(System.Int32, System.Int64)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.GetVar(System.Int32)" text="ScriptUnit.GetVar(Int32)" alt="Commons.Server.Scripts.ScriptUnit.GetVar(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SetStringVar(System.Int32,System.String)" text="ScriptUnit.SetStringVar(Int32, String)" alt="Commons.Server.Scripts.ScriptUnit.SetStringVar(System.Int32, System.String)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.GetStringVar(System.Int32)" text="ScriptUnit.GetStringVar(Int32)" alt="Commons.Server.Scripts.ScriptUnit.GetStringVar(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SetQuickSlot(System.Int32,System.Int32,System.Int32)" text="ScriptUnit.SetQuickSlot(Int32, Int32, Int32)" alt="Commons.Server.Scripts.ScriptUnit.SetQuickSlot(System.Int32, System.Int32, System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.atk" text="ScriptUnit.atk" alt="Commons.Server.Scripts.ScriptUnit.atk"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.attack" text="ScriptUnit.attack" alt="Commons.Server.Scripts.ScriptUnit.attack"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.def" text="ScriptUnit.def" alt="Commons.Server.Scripts.ScriptUnit.def"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.defense" text="ScriptUnit.defense" alt="Commons.Server.Scripts.ScriptUnit.defense"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.magicAtk" text="ScriptUnit.magicAtk" alt="Commons.Server.Scripts.ScriptUnit.magicAtk"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.magicAttack" text="ScriptUnit.magicAttack" alt="Commons.Server.Scripts.ScriptUnit.magicAttack"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.magicDef" text="ScriptUnit.magicDef" alt="Commons.Server.Scripts.ScriptUnit.magicDef"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.magicDefense" text="ScriptUnit.magicDefense" alt="Commons.Server.Scripts.ScriptUnit.magicDefense"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.agi" text="ScriptUnit.agi" alt="Commons.Server.Scripts.ScriptUnit.agi"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.agility" text="ScriptUnit.agility" alt="Commons.Server.Scripts.ScriptUnit.agility"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.luk" text="ScriptUnit.luk" alt="Commons.Server.Scripts.ScriptUnit.luk"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.lucky" text="ScriptUnit.lucky" alt="Commons.Server.Scripts.ScriptUnit.lucky"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.GetStat(System.Int32)" text="ScriptUnit.GetStat(Int32)" alt="Commons.Server.Scripts.ScriptUnit.GetStat(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SetStat(System.Int32,System.Single)" text="ScriptUnit.SetStat(Int32, Single)" alt="Commons.Server.Scripts.ScriptUnit.SetStat(System.Int32, System.Single)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.maxHP" text="ScriptUnit.maxHP" alt="Commons.Server.Scripts.ScriptUnit.maxHP"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.maxMP" text="ScriptUnit.maxMP" alt="Commons.Server.Scripts.ScriptUnit.maxMP"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.hp" text="ScriptUnit.hp" alt="Commons.Server.Scripts.ScriptUnit.hp"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.mp" text="ScriptUnit.mp" alt="Commons.Server.Scripts.ScriptUnit.mp"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.fatigue" text="ScriptUnit.fatigue" alt="Commons.Server.Scripts.ScriptUnit.fatigue"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.moveSpeed" text="ScriptUnit.moveSpeed" alt="Commons.Server.Scripts.ScriptUnit.moveSpeed"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.mass" text="ScriptUnit.mass" alt="Commons.Server.Scripts.ScriptUnit.mass"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.party" text="ScriptUnit.party" alt="Commons.Server.Scripts.ScriptUnit.party"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.AddDamage(System.Int32,System.Int32,System.Boolean)" text="ScriptUnit.AddDamage(Int32, Int32, Boolean)" alt="Commons.Server.Scripts.ScriptUnit.AddDamage(System.Int32, System.Int32, System.Boolean)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.AddDamageBy(Commons.Server.Scripts.ScriptUnit,System.Int32,System.Int32,System.Boolean)" text="ScriptUnit.AddDamageBy(ScriptUnit, Int32, Int32, Boolean)" alt="Commons.Server.Scripts.ScriptUnit.AddDamageBy(Commons.Server.Scripts.ScriptUnit, System.Int32, System.Int32, System.Boolean)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.AddSkill(System.Int32,System.Int32,System.Boolean)" text="ScriptUnit.AddSkill(Int32, Int32, Boolean)" alt="Commons.Server.Scripts.ScriptUnit.AddSkill(System.Int32, System.Int32, System.Boolean)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.AddItem(System.Int32,System.Int32,System.Boolean)" text="ScriptUnit.AddItem(Int32, Int32, Boolean)" alt="Commons.Server.Scripts.ScriptUnit.AddItem(System.Int32, System.Int32, System.Boolean)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.AddItemByTItem(network.TItem,System.Boolean)" text="ScriptUnit.AddItemByTItem(TItem, Boolean)" alt="Commons.Server.Scripts.ScriptUnit.AddItemByTItem(network.TItem, System.Boolean)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.DropItem(System.Int64,System.Int32)" text="ScriptUnit.DropItem(Int64, Int32)" alt="Commons.Server.Scripts.ScriptUnit.DropItem(System.Int64, System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.DropItemByDataID(System.Int32,System.Int32)" text="ScriptUnit.DropItemByDataID(Int32, Int32)" alt="Commons.Server.Scripts.ScriptUnit.DropItemByDataID(System.Int32, System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.AddGameMoney(System.Int64)" text="ScriptUnit.AddGameMoney(Int64)" alt="Commons.Server.Scripts.ScriptUnit.AddGameMoney(System.Int64)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.RemoveSkill(System.Int32)" text="ScriptUnit.RemoveSkill(Int32)" alt="Commons.Server.Scripts.ScriptUnit.RemoveSkill(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.RemoveAllSkills" text="ScriptUnit.RemoveAllSkills()" alt="Commons.Server.Scripts.ScriptUnit.RemoveAllSkills()"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.HasSkill(System.Int32)" text="ScriptUnit.HasSkill(Int32)" alt="Commons.Server.Scripts.ScriptUnit.HasSkill(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.GetSkill(System.Int32)" text="ScriptUnit.GetSkill(Int32)" alt="Commons.Server.Scripts.ScriptUnit.GetSkill(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SetSkillLevel(System.Int32,System.Int32)" text="ScriptUnit.SetSkillLevel(Int32, Int32)" alt="Commons.Server.Scripts.ScriptUnit.SetSkillLevel(System.Int32, System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.GetSkillLevel(System.Int32)" text="ScriptUnit.GetSkillLevel(Int32)" alt="Commons.Server.Scripts.ScriptUnit.GetSkillLevel(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.CountItem(System.Int32)" text="ScriptUnit.CountItem(Int32)" alt="Commons.Server.Scripts.ScriptUnit.CountItem(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.RemoveItem(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)" text="ScriptUnit.RemoveItem(Int32, Int32, Boolean, Boolean, Boolean)" alt="Commons.Server.Scripts.ScriptUnit.RemoveItem(System.Int32, System.Int32, System.Boolean, System.Boolean, System.Boolean)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.RemoveItemByID(System.Int64,System.Int32,System.Boolean,System.Boolean,System.Boolean)" text="ScriptUnit.RemoveItemByID(Int64, Int32, Boolean, Boolean, Boolean)" alt="Commons.Server.Scripts.ScriptUnit.RemoveItemByID(System.Int64, System.Int32, System.Boolean, System.Boolean, System.Boolean)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.UseGameMoney(System.Int64)" text="ScriptUnit.UseGameMoney(Int64)" alt="Commons.Server.Scripts.ScriptUnit.UseGameMoney(System.Int64)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.AddFatigue(System.Int64)" text="ScriptUnit.AddFatigue(Int64)" alt="Commons.Server.Scripts.ScriptUnit.AddFatigue(System.Int64)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.UseFatigue(System.Int64)" text="ScriptUnit.UseFatigue(Int64)" alt="Commons.Server.Scripts.ScriptUnit.UseFatigue(System.Int64)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.StartGlobalEvent(System.Int32)" text="ScriptUnit.StartGlobalEvent(Int32)" alt="Commons.Server.Scripts.ScriptUnit.StartGlobalEvent(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.ShowAnimation(System.Int32)" text="ScriptUnit.ShowAnimation(Int32)" alt="Commons.Server.Scripts.ScriptUnit.ShowAnimation(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.StopAnimation(System.Int32)" text="ScriptUnit.StopAnimation(Int32)" alt="Commons.Server.Scripts.ScriptUnit.StopAnimation(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.ClearBuffAnimations" text="ScriptUnit.ClearBuffAnimations()" alt="Commons.Server.Scripts.ScriptUnit.ClearBuffAnimations()"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.PlaySE(System.String,System.Single)" text="ScriptUnit.PlaySE(String, Single)" alt="Commons.Server.Scripts.ScriptUnit.PlaySE(System.String, System.Single)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.PlayME(System.String,System.Single)" text="ScriptUnit.PlayME(String, Single)" alt="Commons.Server.Scripts.ScriptUnit.PlayME(System.String, System.Single)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.AddHP(System.Int64)" text="ScriptUnit.AddHP(Int64)" alt="Commons.Server.Scripts.ScriptUnit.AddHP(System.Int64)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.AddMP(System.Int64)" text="ScriptUnit.AddMP(Int64)" alt="Commons.Server.Scripts.ScriptUnit.AddMP(System.Int64)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.AddBuff(System.Int32,Commons.Server.Scripts.ScriptUnit)" text="ScriptUnit.AddBuff(Int32, ScriptUnit)" alt="Commons.Server.Scripts.ScriptUnit.AddBuff(System.Int32, Commons.Server.Scripts.ScriptUnit)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.RemoveBuff(System.Int32)" text="ScriptUnit.RemoveBuff(Int32)" alt="Commons.Server.Scripts.ScriptUnit.RemoveBuff(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.ClearAllBuffs(System.Boolean)" text="ScriptUnit.ClearAllBuffs(Boolean)" alt="Commons.Server.Scripts.ScriptUnit.ClearAllBuffs(System.Boolean)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.HasBuff(System.Int32)" text="ScriptUnit.HasBuff(Int32)" alt="Commons.Server.Scripts.ScriptUnit.HasBuff(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.Say(System.String,System.UInt32)" text="ScriptUnit.Say(String, UInt32)" alt="Commons.Server.Scripts.ScriptUnit.Say(System.String, System.UInt32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SendSay(System.String,System.UInt32)" text="ScriptUnit.SendSay(String, UInt32)" alt="Commons.Server.Scripts.ScriptUnit.SendSay(System.String, System.UInt32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SendCenterLabel(System.String)" text="ScriptUnit.SendCenterLabel(String)" alt="Commons.Server.Scripts.ScriptUnit.SendCenterLabel(System.String)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.LeaveField" text="ScriptUnit.LeaveField()" alt="Commons.Server.Scripts.ScriptUnit.LeaveField()"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.FireEvent(System.String,System.Object[])" text="ScriptUnit.FireEvent(String, Object[])" alt="Commons.Server.Scripts.ScriptUnit.FireEvent(System.String, System.Object[])"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.MakeSturn(System.Single)" text="ScriptUnit.MakeSturn(Single)" alt="Commons.Server.Scripts.ScriptUnit.MakeSturn(System.Single)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.MakeKnockback(System.Single,System.Single)" text="ScriptUnit.MakeKnockback(Single, Single)" alt="Commons.Server.Scripts.ScriptUnit.MakeKnockback(System.Single, System.Single)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.KnockbackFromUnit(Commons.Server.Scripts.ScriptUnit,System.Single,System.Single)" text="ScriptUnit.KnockbackFromUnit(ScriptUnit, Single, Single)" alt="Commons.Server.Scripts.ScriptUnit.KnockbackFromUnit(Commons.Server.Scripts.ScriptUnit, System.Single, System.Single)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.PullFromUnit(Commons.Server.Scripts.ScriptUnit,System.Single,System.Single)" text="ScriptUnit.PullFromUnit(ScriptUnit, Single, Single)" alt="Commons.Server.Scripts.ScriptUnit.PullFromUnit(Commons.Server.Scripts.ScriptUnit, System.Single, System.Single)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.IsEquippedItem(System.Int64)" text="ScriptUnit.IsEquippedItem(Int64)" alt="Commons.Server.Scripts.ScriptUnit.IsEquippedItem(System.Int64)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.IsEquippedItemByDataID(System.Int32)" text="ScriptUnit.IsEquippedItemByDataID(Int32)" alt="Commons.Server.Scripts.ScriptUnit.IsEquippedItemByDataID(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.EquipItem(System.Int64,System.Boolean)" text="ScriptUnit.EquipItem(Int64, Boolean)" alt="Commons.Server.Scripts.ScriptUnit.EquipItem(System.Int64, System.Boolean)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.UnequipItem(System.Int64)" text="ScriptUnit.UnequipItem(Int64)" alt="Commons.Server.Scripts.ScriptUnit.UnequipItem(System.Int64)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.GetEquipItem(System.Int32)" text="ScriptUnit.GetEquipItem(Int32)" alt="Commons.Server.Scripts.ScriptUnit.GetEquipItem(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.IsCollectionCompleted(System.Int32)" text="ScriptUnit.IsCollectionCompleted(Int32)" alt="Commons.Server.Scripts.ScriptUnit.IsCollectionCompleted(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.RemoveCollection(System.Int32)" text="ScriptUnit.RemoveCollection(Int32)" alt="Commons.Server.Scripts.ScriptUnit.RemoveCollection(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.AddPet(System.Int32,System.Int32,System.String)" text="ScriptUnit.AddPet(Int32, Int32, String)" alt="Commons.Server.Scripts.ScriptUnit.AddPet(System.Int32, System.Int32, System.String)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.SpawnPet(System.Int32,System.Single,System.Single,System.Int32,System.Int32,System.String)" text="ScriptUnit.SpawnPet(Int32, Single, Single, Int32, Int32, String)" alt="Commons.Server.Scripts.ScriptUnit.SpawnPet(System.Int32, System.Single, System.Single, System.Int32, System.Int32, System.String)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.CancelPetSummon" text="ScriptUnit.CancelPetSummon()" alt="Commons.Server.Scripts.ScriptUnit.CancelPetSummon()"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.UnregisterPet(System.Int32)" text="ScriptUnit.UnregisterPet(Int32)" alt="Commons.Server.Scripts.ScriptUnit.UnregisterPet(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.GetRegistedPetID" text="ScriptUnit.GetRegistedPetID()" alt="Commons.Server.Scripts.ScriptUnit.GetRegistedPetID()"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.GetRegistedPetDataByPetID(System.Int32)" text="ScriptUnit.GetRegistedPetDataByPetID(Int32)" alt="Commons.Server.Scripts.ScriptUnit.GetRegistedPetDataByPetID(System.Int32)"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.GetAllRegistedPetData" text="ScriptUnit.GetAllRegistedPetData()" alt="Commons.Server.Scripts.ScriptUnit.GetAllRegistedPetData()"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.GetSingleSummonedPet" text="ScriptUnit.GetSingleSummonedPet()" alt="Commons.Server.Scripts.ScriptUnit.GetSingleSummonedPet()"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptUnit.RefreshStats" text="ScriptUnit.RefreshStats()" alt="Commons.Server.Scripts.ScriptUnit.RefreshStats()"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptObject._parent" text="ScriptObject._parent" alt="Commons.Server.Scripts.ScriptObject._parent"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptObject.customData" text="ScriptObject.customData" alt="Commons.Server.Scripts.ScriptObject.customData"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+    </div>
+  </div> -->
+  <h6><strong>Namespace</strong>: <a class="xref" href="Commons.Server.Scripts.html">Commons.Server.Scripts</a></h6>
+  <h6><strong>Assembly</strong>: Creator.dll</h6>
+  <h5 id="Commons_Server_Scripts_ScriptPetUnit_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[MoonSharpUserData]
+public class ScriptPetUnit : ScriptUnit</code></pre>
+  </div>
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnit_characterData_" data-uid="Commons.Server.Scripts.ScriptPetUnit.characterData*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnit_characterData" data-uid="Commons.Server.Scripts.ScriptPetUnit.characterData">characterData</h4>
+  <div class="markdown level1 summary"><p><para><para>Gets pet unit data in TGameCharacter format</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override TGameCharacter characterData { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="network.TGameCharacter.html">TGameCharacter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html#Commons_Server_Scripts_ScriptUnit_characterData">ScriptUnit.characterData</a></div>
+  <h5 id="Commons_Server_Scripts_ScriptPetUnit_characterData_examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Unit name : string characterData.name&#10;-- Unit memo : string characterData.memo&#10;-- Unit movespeed : int characterData.moveSpeed&#10;-- Unit collision : bool characterData.collision&#10;-- Unit Jump force : float characterData.jumpForce&#10;</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnit_characterID_" data-uid="Commons.Server.Scripts.ScriptPetUnit.characterID*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnit_characterID" data-uid="Commons.Server.Scripts.ScriptPetUnit.characterID">characterID</h4>
+  <div class="markdown level1 summary"><p><para><para>The character ID of Pet Unit</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int characterID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html#Commons_Server_Scripts_ScriptUnit_characterID">ScriptUnit.characterID</a></div>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnit_cumulativeEXP_" data-uid="Commons.Server.Scripts.ScriptPetUnit.cumulativeEXP*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnit_cumulativeEXP" data-uid="Commons.Server.Scripts.ScriptPetUnit.cumulativeEXP">cumulativeEXP</h4>
+  <div class="markdown level1 summary"><p><para><para>Cumulative EXP of pet</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long cumulativeEXP { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html#Commons_Server_Scripts_ScriptUnit_cumulativeEXP">ScriptUnit.cumulativeEXP</a></div>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnit_exp_" data-uid="Commons.Server.Scripts.ScriptPetUnit.exp*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnit_exp" data-uid="Commons.Server.Scripts.ScriptPetUnit.exp">exp</h4>
+  <div class="markdown level1 summary"><p><para><para>Current EXP of pet </para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long exp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html#Commons_Server_Scripts_ScriptUnit_exp">ScriptUnit.exp</a></div>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnit_job_" data-uid="Commons.Server.Scripts.ScriptPetUnit.job*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnit_job" data-uid="Commons.Server.Scripts.ScriptPetUnit.job">job</h4>
+  <div class="markdown level1 summary"><p><para><para>Pet Unit Job</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int job { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html#Commons_Server_Scripts_ScriptUnit_job">ScriptUnit.job</a></div>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnit_level_" data-uid="Commons.Server.Scripts.ScriptPetUnit.level*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnit_level" data-uid="Commons.Server.Scripts.ScriptPetUnit.level">level</h4>
+  <div class="markdown level1 summary"><p><para><para>Current level of pet</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int level { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html#Commons_Server_Scripts_ScriptUnit_level">ScriptUnit.level</a></div>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnit_petID_" data-uid="Commons.Server.Scripts.ScriptPetUnit.petID*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnit_petID" data-uid="Commons.Server.Scripts.ScriptPetUnit.petID">petID</h4>
+  <div class="markdown level1 summary"><p><para><para>ID registered to the owner of the pet unit</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int petID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnit_AddEXP_" data-uid="Commons.Server.Scripts.ScriptPetUnit.AddEXP*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnit_AddEXP_System_Int64_" data-uid="Commons.Server.Scripts.ScriptPetUnit.AddEXP(System.Int64)">AddEXP(Int64)</h4>
+  <div class="markdown level1 summary"><p><para><para>Gives pet units experience.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AddEXP(long amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p><para><para>Amount to increase</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html#Commons_Server_Scripts_ScriptUnit_AddEXP_System_Int64_">ScriptUnit.AddEXP(Int64)</a></div>
+  <h5 id="Commons_Server_Scripts_ScriptPetUnit_AddEXP_System_Int64__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- 10000 experience is awarded to the summoned pet of the current player unit&#10;&#10;-- Summon the pet to the player first, then&#10;-- Put the example below into the event unit and run it&#10;&#10;local myPet = unit.GetSingleSummonedPet()&#10;myPet.AddEXP(10000)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnit_ResetPetLevelEXP_" data-uid="Commons.Server.Scripts.ScriptPetUnit.ResetPetLevelEXP*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnit_ResetPetLevelEXP" data-uid="Commons.Server.Scripts.ScriptPetUnit.ResetPetLevelEXP">ResetPetLevelEXP()</h4>
+  <div class="markdown level1 summary"><p><para><para>Reset pet level</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetPetLevelEXP()</code></pre>
+  </div>
+  <h5 id="Commons_Server_Scripts_ScriptPetUnit_ResetPetLevelEXP_examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Reset the level and experience of the summoned pet of the current player unit&#10;&#10;-- Summon the pet to the player first, then&#10;-- Put the example below into the event unit and run it&#10;&#10;local myPet = unit.GetSingleSummonedPet()&#10;myPet.ResetPetLevelEXP()</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnit_SetJob_" data-uid="Commons.Server.Scripts.ScriptPetUnit.SetJob*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnit_SetJob_System_Int32_System_Boolean_" data-uid="Commons.Server.Scripts.ScriptPetUnit.SetJob(System.Int32,System.Boolean)">SetJob(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p><para><para>Whether to keep skills when changing pet job</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetJob(int jobID, bool keepSkills = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">jobID</span></td>
+        <td><p><para><para>Job ID</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepSkills</span></td>
+        <td><p><para><para>Whether to maintain the same skill (default: True)</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html#Commons_Server_Scripts_ScriptUnit_SetJob_System_Int32_System_Boolean_">ScriptUnit.SetJob(Int32, Boolean)</a></div>
+  <h5 id="Commons_Server_Scripts_ScriptPetUnit_SetJob_System_Int32_System_Boolean__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Set my pet's job to number 5&#10;&#10;-- Summon the pet to the player first, then&#10;-- Put the example below into the event unit and run it&#10;&#10;local myPet = unit.GetSingleSummonedPet()&#10;myPet.SetJob(5)</code></pre>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

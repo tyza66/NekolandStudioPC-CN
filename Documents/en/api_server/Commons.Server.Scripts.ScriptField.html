@@ -1,0 +1,1456 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ScriptField
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ScriptField
+   ">
+    <meta name="generator" content="docfx 1.0.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo" id="logo" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../tutorials/intro.html" title="Tutorials">Tutorials</a>
+                      </li>
+                      <li>
+                          <a href="../api_server/main.html" title="Server API">Server API</a>
+                      </li>
+                      <li>
+                          <a href="../api_client/main.html" title="Client API">Client API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.html" title="Commons.Server" class="">Commons.Server</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.NekoEquipSlot.html" title="NekoEquipSlot" class="">NekoEquipSlot</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemOptionType.html" title="NekoItemOptionType" class="">NekoItemOptionType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemType.html" title="NekoItemType" class="">NekoItemType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoSkillType.html" title="NekoSkillType" class="">NekoSkillType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoStats.html" title="NekoStats" class="">NekoStats</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.StatusCode.html" title="StatusCode" class="">StatusCode</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.Scripts.html" title="Commons.Server.Scripts" class="">Commons.Server.Scripts</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptClan.html" title="ScriptClan" class="">ScriptClan</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptColor.html" title="ScriptColor" class="">ScriptColor</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptDropItem.html" title="ScriptDropItem" class="">ScriptDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEnemyUnitAI.html" title="ScriptEnemyUnitAI" class="">ScriptEnemyUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEventPublisher.html" title="ScriptEventPublisher" class="">ScriptEventPublisher</a>
+                          </li>
+                          <li class="active">
+                            <a href="Commons.Server.Scripts.ScriptField.html" title="ScriptField" class="active">ScriptField</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptObject.html" title="ScriptObject" class="">ScriptObject</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptParty.html" title="ScriptParty" class="">ScriptParty</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPetUnit.html" title="ScriptPetUnit" class="">ScriptPetUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPetUnitAI.html" title="ScriptPetUnitAI" class="">ScriptPetUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPoint.html" title="ScriptPoint" class="">ScriptPoint</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptRect.html" title="ScriptRect" class="">ScriptRect</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptRoomPlayer.html" title="ScriptRoomPlayer" class="">ScriptRoomPlayer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptServer.html" title="ScriptServer" class="">ScriptServer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnit.html" title="ScriptUnit" class="">ScriptUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnitBuff.html" title="ScriptUnitBuff" class="">ScriptUnitBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUtility.html" title="ScriptUtility" class="">ScriptUtility</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="network.html" title="network" class="">network</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="network.TGameAnimation.html" title="TGameAnimation" class="">TGameAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameAnimationCommand.html" title="TGameAnimationCommand" class="">TGameAnimationCommand</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameBuff.html" title="TGameBuff" class="">TGameBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCharacter.html" title="TGameCharacter" class="">TGameCharacter</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCollection.html" title="TGameCollection" class="">TGameCollection</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCommonEvent.html" title="TGameCommonEvent" class="">TGameCommonEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameDropItem.html" title="TGameDropItem" class="">TGameDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameItem.html" title="TGameItem" class="">TGameItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameJob.html" title="TGameJob" class="">TGameJob</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameLayoutPage.html" title="TGameLayoutPage" class="">TGameLayoutPage</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMapStub.html" title="TGameMapStub" class="">TGameMapStub</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMonster.html" title="TGameMonster" class="">TGameMonster</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGamePanorama.html" title="TGamePanorama" class="">TGamePanorama</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameResource.html" title="TGameResource" class="">TGameResource</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSkill.html" title="TGameSkill" class="">TGameSkill</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteAction.html" title="TGameSpriteAction" class="">TGameSpriteAction</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteActionCell.html" title="TGameSpriteActionCell" class="">TGameSpriteActionCell</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameStrings.html" title="TGameStrings" class="">TGameStrings</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameTileset.html" title="TGameTileset" class="">TGameTileset</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItem.html" title="TItem" class="">TItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItemOption.html" title="TItemOption" class="">TItemOption</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TOnlinePetData.html" title="TOnlinePetData" class="">TOnlinePetData</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TQuickSlot.html" title="TQuickSlot" class="">TQuickSlot</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Commons.Server.Scripts.ScriptField">
+  
+  
+  <h1 id="Commons_Server_Scripts_ScriptField" data-uid="Commons.Server.Scripts.ScriptField" class="text-break">Class ScriptField
+  </h1>
+  <div class="markdown level0 summary"><p><para><para>The object that manages the map on the server.</para><br><para>
+Corresponds to one map</para><br></para></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Commons.Server.Scripts.ScriptObject.html">ScriptObject</a></div>
+    <div class="level2"><span class="xref">ScriptField</span></div>
+  </div>
+  <!-- <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptObject._parent" text="ScriptObject._parent" alt="Commons.Server.Scripts.ScriptObject._parent"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptObject.customData" text="ScriptObject.customData" alt="Commons.Server.Scripts.ScriptObject.customData"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+    </div>
+  </div> -->
+  <h6><strong>Namespace</strong>: <a class="xref" href="Commons.Server.Scripts.html">Commons.Server.Scripts</a></h6>
+  <h6><strong>Assembly</strong>: Creator.dll</h6>
+  <h5 id="Commons_Server_Scripts_ScriptField_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[MoonSharpUserData]
+public class ScriptField : ScriptObject, NekoEventListener</code></pre>
+  </div>
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_channelID_" data-uid="Commons.Server.Scripts.ScriptField.channelID*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_channelID" data-uid="Commons.Server.Scripts.ScriptField.channelID">channelID</h4>
+  <div class="markdown level1 summary"><p><para><para>The channel ID of this map</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int channelID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_dataID_" data-uid="Commons.Server.Scripts.ScriptField.dataID*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_dataID" data-uid="Commons.Server.Scripts.ScriptField.dataID">dataID</h4>
+  <div class="markdown level1 summary"><p><para><para>The data ID of this map</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int dataID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_dropItems_" data-uid="Commons.Server.Scripts.ScriptField.dropItems*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_dropItems" data-uid="Commons.Server.Scripts.ScriptField.dropItems">dropItems</h4>
+  <div class="markdown level1 summary"><p><para><para>Get all the drop items in the field</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptDropItem[] dropItems { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptDropItem.html">ScriptDropItem</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_height_" data-uid="Commons.Server.Scripts.ScriptField.height*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_height" data-uid="Commons.Server.Scripts.ScriptField.height">height</h4>
+  <div class="markdown level1 summary"><p><para><para>The height size of this map</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int height { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_maxPlayers_" data-uid="Commons.Server.Scripts.ScriptField.maxPlayers*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_maxPlayers" data-uid="Commons.Server.Scripts.ScriptField.maxPlayers">maxPlayers</h4>
+  <div class="markdown level1 summary"><p><para><para>Limit the number of field players</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint maxPlayers { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_name_" data-uid="Commons.Server.Scripts.ScriptField.name*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_name" data-uid="Commons.Server.Scripts.ScriptField.name">name</h4>
+  <div class="markdown level1 summary"><p><para><para>The name of this map</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_onJoinDropItem_" data-uid="Commons.Server.Scripts.ScriptField.onJoinDropItem*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_onJoinDropItem" data-uid="Commons.Server.Scripts.ScriptField.onJoinDropItem">onJoinDropItem</h4>
+  <div class="markdown level1 summary"><p><para><para>This event is called when a drop item enters the field.</para><br><para>
+Argument type of function to be called: function(ScriptField field, ScriptDropItem dropItem)</para><br><para></para><br><para>
+[1] field: the field</para><br><para>
+[2] dropItem: Dropped item</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptEventPublisher onJoinDropItem { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptEventPublisher.html">ScriptEventPublisher</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_onJoinDropItem_examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Notify all players in the field when a drop item is added to the field&#10;-- Note: This example can work recursively&#10;&#10;-- Callback when drop item is actually dropped&#10;function onJoinDropItem(field, dropItem)&#10;    if dropItem == nil then&#10;        return&#10;    end&#10;&#10;    local itemData = Server.GetItem(dropItem.titem.dataID)&#10;    if itemData ~= nil then&#10;        field.SendCenterLabel(itemData.name .. "item fell to the ground!")&#10;    end&#10;end&#10;&#10;&#10;-- Function to register callback in target field&#10;function registerCallback()&#10;    local field = Server.GetField(6)&#10;&#10;    -- Callback registration if field is created&#10;    if field ~= nil then&#10;        field.onJoinDropItem.Add(onJoinDropItem)&#10;    else&#10;        -- If not created, wait 1 second again and try to register the callback&#10;        Server.RunLater(registerCallback, 1)&#10;    end&#10;end&#10;&#10;&#10;-- Execute the registration function after 1 second&#10;-- (field may not have been created yet at the time the script is executed)&#10;Server.RunLater(registerCallback, 1)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_onJoinField_" data-uid="Commons.Server.Scripts.ScriptField.onJoinField*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_onJoinField" data-uid="Commons.Server.Scripts.ScriptField.onJoinField">onJoinField</h4>
+  <div class="markdown level1 summary"><p><para><para>This event is called when a unit enters the field.</para><br><para>
+Argument type of function to be called: function(ScriptField field, ScriptUnit unit)</para><br><para></para><br><para>
+[1] field: the field</para><br><para>
+[2] unit: The unit that entered the field</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptEventPublisher onJoinField { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptEventPublisher.html">ScriptEventPublisher</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_onJoinField_examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- When entering a specific map, print out the name and send the entire server message&#10;&#10;function onJoinField()&#10;    function onJoinField_1(field, unit)&#10;        unit.SendCenterLabel(field.name) -- Display the field name briefly to the unit.&#10;        if #field.playerUnits &gt; 10 then -- # Means the length of the table.&#10;            Server.SendSay("More than 11 users gathered in" .. field.name)&#10;        end&#10;    end&#10;&#10;    local map = Server.GetField(1)&#10;    if map ~= nil then&#10;        -- When entering field 1, onJoinField_1 function is called.&#10;        map.onJoinField.Add(onJoinField_1)&#10;    end&#10;end&#10;&#10;-- After 1 second, execute the onJoinField function.&#10;-- The reason to run after 1 second is to prevent referencing nil because the map may not have been created after server execution.&#10;Server.RunLater(onJoinField, 1)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_onLeaveDropItem_" data-uid="Commons.Server.Scripts.ScriptField.onLeaveDropItem*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_onLeaveDropItem" data-uid="Commons.Server.Scripts.ScriptField.onLeaveDropItem">onLeaveDropItem</h4>
+  <div class="markdown level1 summary"><p><para><para>This event is called when a drop item exits the field.</para><br><para>
+Argument type of function to be called: function(ScriptField field, ScriptDropItem dropItem)</para><br><para></para><br><para>
+[1] field: the field</para><br><para>
+[2] dropItem: Dropped item</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptEventPublisher onLeaveDropItem { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptEventPublisher.html">ScriptEventPublisher</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_onLeaveDropItem_examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Notify all players in the field when a drop item exits the field&#10;-- Note: This example can work recursively&#10;&#10;-- Callback when drop item is out&#10;function onLeaveDropItem(field, dropItem)&#10;    if dropItem == nil then&#10;        return&#10;    end&#10;    &#10;    local itemData = Server.GetItem(dropItem.titem.dataID)&#10;    if itemData ~= nil then&#10;        field.SendCenterLabel(itemData.name .. " item left the ground!")&#10;    end&#10;end&#10;&#10;&#10;-- Function to register callback in target field&#10;function registerCallback()&#10;    local field = Server.GetField(6)&#10;&#10;    -- If the field has been created, callback registration&#10;    if field ~= nil then&#10;        field.onLeaveDropItem.Add(onLeaveDropItem)&#10;    else&#10;        -- If not, wait 1 second again and try to register the callback&#10;        Server.RunLater(registerCallback, 1)&#10;    end&#10;end&#10;&#10;&#10;-- Execute the registration function after 1 second&#10;-- (at the time the script is executed, the field may not have been created yet)&#10;Server.RunLater(registerCallback, 1)&#10;</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_onLeaveField_" data-uid="Commons.Server.Scripts.ScriptField.onLeaveField*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_onLeaveField" data-uid="Commons.Server.Scripts.ScriptField.onLeaveField">onLeaveField</h4>
+  <div class="markdown level1 summary"><p><para><para>This event is called when a unit leaves the field.</para><br><para>
+Argument type of function to be called: function(ScriptField field, ScriptUnit unit)</para><br><para></para><br><para>
+[1] field: the field</para><br><para>
+[2] unit: The unit that left the field</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptEventPublisher onLeaveField { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptEventPublisher.html">ScriptEventPublisher</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_onLeaveField_examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Handling when exiting a specific map&#10;&#10;function onLeaveField(map,unit)&#10;  print('Leave : ' .. map.name .. ' ' ..unit.name)&#10;  Server.SetWorldVar(10, Server.GetWorldVar(10)-1)&#10;end&#10;&#10;Server.GetField(5).onLeaveField.Add(onLeaveField)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_playerCount_" data-uid="Commons.Server.Scripts.ScriptField.playerCount*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_playerCount" data-uid="Commons.Server.Scripts.ScriptField.playerCount">playerCount</h4>
+  <div class="markdown level1 summary"><p><para><para>The number of player units in this map</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int playerCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_playerUnits_" data-uid="Commons.Server.Scripts.ScriptField.playerUnits*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_playerUnits" data-uid="Commons.Server.Scripts.ScriptField.playerUnits">playerUnits</h4>
+  <div class="markdown level1 summary"><p><para><para>Get all player units in that field</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit[] playerUnits { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_units_" data-uid="Commons.Server.Scripts.ScriptField.units*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_units" data-uid="Commons.Server.Scripts.ScriptField.units">units</h4>
+  <div class="markdown level1 summary"><p><para><para>Get all units in that field</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit[] units { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_width_" data-uid="Commons.Server.Scripts.ScriptField.width*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_width" data-uid="Commons.Server.Scripts.ScriptField.width">width</h4>
+  <div class="markdown level1 summary"><p><para><para>The width size of this map</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int width { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_FindMaximumUnit_" data-uid="Commons.Server.Scripts.ScriptField.FindMaximumUnit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_FindMaximumUnit_System_Single_System_Single_System_Single_MoonSharp_Interpreter_Closure_System_Int32_Commons_Server_Scripts_ScriptUnit_" data-uid="Commons.Server.Scripts.ScriptField.FindMaximumUnit(System.Single,System.Single,System.Single,MoonSharp.Interpreter.Closure,System.Int32,Commons.Server.Scripts.ScriptUnit)">FindMaximumUnit(Single, Single, Single, Closure, Int32, ScriptUnit)</h4>
+  <div class="markdown level1 summary"><p><para><para>Get the unit with the largest corresponding condition in the current field.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit FindMaximumUnit(float x, float y, float dist, Closure func, int findType = -1, ScriptUnit without = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p><para><para>The location of the unit on which to find the distance x</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p><para><para>Location of unit to find distance</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dist</span></td>
+        <td><p><para><para>Finding range</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">MoonSharp.Interpreter.Closure</span></td>
+        <td><span class="parametername">func</span></td>
+        <td><p><para><para>Script function to execute</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">findType</span></td>
+        <td><p><para><para>Unit type to search 0: Player, 1: Event unit, 2: Enemy</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><span class="parametername">without</span></td>
+        <td><p><para><para>Unit to exclude</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><p><para><para>unit</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_FindMaximumUnit_System_Single_System_Single_System_Single_MoonSharp_Interpreter_Closure_System_Int32_Commons_Server_Scripts_ScriptUnit__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Print the name of the monster unit with the most HP among the event monster units within a distance of 300&#10;&#10;local monsterUnit = unit.field.FindMaximumUnit(unit.x, unit.y, 300, &#10;    function(x)&#10;        return x.hp&#10;    end&#10;    , 2, unit)&#10;&#10;if monsterUnit == nil then&#10;    unit.SendCenterLabel("The monster unit is farther than 300, or does not exist")&#10;    return&#10;end&#10;&#10;unit.SendCenterLabel("Monster units with the most HP: " .. monsterUnit.name)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_FindMinimumUnit_" data-uid="Commons.Server.Scripts.ScriptField.FindMinimumUnit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_FindMinimumUnit_System_Single_System_Single_System_Single_MoonSharp_Interpreter_Closure_System_Int32_Commons_Server_Scripts_ScriptUnit_" data-uid="Commons.Server.Scripts.ScriptField.FindMinimumUnit(System.Single,System.Single,System.Single,MoonSharp.Interpreter.Closure,System.Int32,Commons.Server.Scripts.ScriptUnit)">FindMinimumUnit(Single, Single, Single, Closure, Int32, ScriptUnit)</h4>
+  <div class="markdown level1 summary"><p><para><para>Get the unit that meets the smallest condition in the current field.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit FindMinimumUnit(float x, float y, float dist, Closure func, int findType = -1, ScriptUnit without = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p><para><para>The location of the unit on which to find the distance x</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p><para><para>Location of unit to find distance</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dist</span></td>
+        <td><p><para><para>Finding range</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">MoonSharp.Interpreter.Closure</span></td>
+        <td><span class="parametername">func</span></td>
+        <td><p><para><para>Script function to execute</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">findType</span></td>
+        <td><p><para><para>Unit type to search 0: Player, 1: Event unit, 2: Enemy</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><span class="parametername">without</span></td>
+        <td><p><para><para>Unit to exclude</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><p><para><para>unit</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_FindMinimumUnit_System_Single_System_Single_System_Single_MoonSharp_Interpreter_Closure_System_Int32_Commons_Server_Scripts_ScriptUnit__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Print the name of the monster unit with the lowest HP among the event monster units within a distance of 300&#10;&#10;local monsterUnit = unit.field.FindMinimumUnit(unit.x, unit.y, 300, &#10;    function(x)&#10;        return x.hp&#10;    end&#10;    , 2, unit)&#10;&#10;if monsterUnit == nil then&#10;    unit.SendCenterLabel("The monster unit is farther than 300, or does not exist")&#10;    return&#10;end&#10;&#10;unit.SendCenterLabel("Monster units with the lowest HP: " .. monsterUnit.name)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_FindNearDropItem_" data-uid="Commons.Server.Scripts.ScriptField.FindNearDropItem*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_FindNearDropItem_System_Single_System_Single_System_Single_" data-uid="Commons.Server.Scripts.ScriptField.FindNearDropItem(System.Single,System.Single,System.Single)">FindNearDropItem(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>Gets the dropped item closest to the specified position in the current field.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptDropItem FindNearDropItem(float x, float y, float dist)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p><para><para>The location of the unit on which to find the distance x</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p><para><para>Location of unit to find distance</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dist</span></td>
+        <td><p><para><para>Distance to find</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptDropItem.html">ScriptDropItem</a></td>
+        <td><p><para><para>Dropped item</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_FindNearDropItem_System_Single_System_Single_System_Single__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Pick up the nearest drop item within a distance of 400&#10;&#10;local nearDropItem = unit.field.FindNearDropItem(unit.x, unit.y, 400)&#10;&#10;if nearDropItem == nil then&#10;    unit.SendCenterLabel("Drop item does not exist within distance 400")&#10;    return&#10;end&#10;&#10;nearDropItem.Acquire(unit)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_FindNearUnit_" data-uid="Commons.Server.Scripts.ScriptField.FindNearUnit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_FindNearUnit_System_Single_System_Single_System_Single_System_Int32_Commons_Server_Scripts_ScriptUnit_" data-uid="Commons.Server.Scripts.ScriptField.FindNearUnit(System.Single,System.Single,System.Single,System.Int32,Commons.Server.Scripts.ScriptUnit)">FindNearUnit(Single, Single, Single, Int32, ScriptUnit)</h4>
+  <div class="markdown level1 summary"><p><para><para>Get the unit closest to the specified position in the current field</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit FindNearUnit(float x, float y, float dist, int findType = -1, ScriptUnit without = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p><para><para>The location of the unit on which to find the distance x</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p><para><para>Location of unit to find distance</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dist</span></td>
+        <td><p><para><para>Finding range</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">findType</span></td>
+        <td><p><para><para>Unit type to search 0: Player, 1: Event unit, 2: Enemy</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><span class="parametername">without</span></td>
+        <td><p><para><para>Unit to exclude</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><p><para><para>unit</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_FindNearUnit_System_Single_System_Single_System_Single_System_Int32_Commons_Server_Scripts_ScriptUnit__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Print the name of the nearest event unit&#10;&#10;local nearEventUnit = unit.field.FindNearUnit(unit.x, unit.y, 100, 1, unit)&#10;&#10;if nearEventUnit == nil then&#10;    unit.SendCenterLabel("Event unit is farther than 100 or is not present")&#10;    return&#10;end&#10;&#10;unit.SendCenterLabel("Nearest event unit :" .. nearEventUnit.name)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_FindUnit_" data-uid="Commons.Server.Scripts.ScriptField.FindUnit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_FindUnit_System_Single_System_Single_System_Single_MoonSharp_Interpreter_Closure_System_Int32_Commons_Server_Scripts_ScriptUnit_" data-uid="Commons.Server.Scripts.ScriptField.FindUnit(System.Single,System.Single,System.Single,MoonSharp.Interpreter.Closure,System.Int32,Commons.Server.Scripts.ScriptUnit)">FindUnit(Single, Single, Single, Closure, Int32, ScriptUnit)</h4>
+  <div class="markdown level1 summary"><p><para><para>Gets the unit that meets the condition from the current field</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit FindUnit(float x, float y, float dist, Closure func, int findType = -1, ScriptUnit without = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p><para><para>Location x to find distance</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p><para><para>Location y to find distance</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dist</span></td>
+        <td><p><para><para>Finding range</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">MoonSharp.Interpreter.Closure</span></td>
+        <td><span class="parametername">func</span></td>
+        <td><p><para><para>Script function to execute</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">findType</span></td>
+        <td><p><para><para>Unit type to search 0: Player, 1: Event unit, 2: Enemy</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><span class="parametername">without</span></td>
+        <td><p><para><para>Unit to exclude</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><p><para><para>Unit</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_FindUnit_System_Single_System_Single_System_Single_MoonSharp_Interpreter_Closure_System_Int32_Commons_Server_Scripts_ScriptUnit__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Find the event unit named EV001 within a distance of 100 and print the ID of the unit&#10;&#10;local eventUnit = unit.field.FindUnit(unit.x, unit.y, 100, &#10;    function(x)&#10;        return x.name == 'EV001'&#10;    end&#10;    , 1, unit)&#10;&#10;if eventUnit == nil then&#10;    unit.SendCenterLabel("Unit named EV001 is farther away than 100 or does not exist")&#10;    return&#10;end&#10;&#10;unit.SendCenterLabel("EV001 ID: " .. eventUnit.id)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_GetEventUnitByName_" data-uid="Commons.Server.Scripts.ScriptField.GetEventUnitByName*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_GetEventUnitByName_System_String_" data-uid="Commons.Server.Scripts.ScriptField.GetEventUnitByName(System.String)">GetEventUnitByName(String)</h4>
+  <div class="markdown level1 summary"><p><para><para>Gets the event unit in that field</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit GetEventUnitByName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p><para><para>The name of the event unit</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><p><para><para>Unit</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_GetEventUnitByName_System_String__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Get the event unit named EV001 in the current field&#10;&#10;local eventUnit = unit.field.GetEventUnitByName("EV001")</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_GetFieldVar_" data-uid="Commons.Server.Scripts.ScriptField.GetFieldVar*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_GetFieldVar_System_Int32_" data-uid="Commons.Server.Scripts.ScriptField.GetFieldVar(System.Int32)">GetFieldVar(Int32)</h4>
+  <div class="markdown level1 summary"><p><para><para>Get the value of a field variable.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long GetFieldVar(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p><para><para>Variable id</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p><para><para>Field variable value</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_GetFieldVar_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Output variable 5 of the current field&#10;&#10;unit.SendCenterLabel('5번 변수: ' ..  unit.field.GetFieldVar(5))</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_GetUnit_" data-uid="Commons.Server.Scripts.ScriptField.GetUnit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_GetUnit_System_Int64_" data-uid="Commons.Server.Scripts.ScriptField.GetUnit(System.Int64)">GetUnit(Int64)</h4>
+  <div class="markdown level1 summary"><p><para><para>Get the units in that field</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit GetUnit(long id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p><para><para>ID of the unit</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><p><para><para>Unit</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_GetUnit_System_Int64__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Get the unit with ID 5 of the current field&#10;&#10;local otherUnit = unit.field.GetUnit(5)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_JoinDropItem_" data-uid="Commons.Server.Scripts.ScriptField.JoinDropItem*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_JoinDropItem_Commons_Server_Scripts_ScriptDropItem_Commons_Server_Scripts_ScriptPoint_" data-uid="Commons.Server.Scripts.ScriptField.JoinDropItem(Commons.Server.Scripts.ScriptDropItem,Commons.Server.Scripts.ScriptPoint)">JoinDropItem(ScriptDropItem, ScriptPoint)</h4>
+  <div class="markdown level1 summary"><p><para><para>Let a dropped item connect to this field.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void JoinDropItem(ScriptDropItem dropItem, ScriptPoint position = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptDropItem.html">ScriptDropItem</a></td>
+        <td><span class="parametername">dropItem</span></td>
+        <td><p><para><para>The ScriptDropItem object</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptPoint.html">ScriptPoint</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p><para><para>Coordinate to be moved</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_JoinDropItem_Commons_Server_Scripts_ScriptDropItem_Commons_Server_Scripts_ScriptPoint__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- On item 2 of my unit, item 5 is created as a drop item.&#10;&#10;local dropItem = Server.CreateDropItem(5, 1)&#10;unit.field.JoinDropItem(dropItem, Point(unit.x, unit.y + 64))</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_JoinUnit_" data-uid="Commons.Server.Scripts.ScriptField.JoinUnit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_JoinUnit_Commons_Server_Scripts_ScriptUnit_Commons_Server_Scripts_ScriptPoint_" data-uid="Commons.Server.Scripts.ScriptField.JoinUnit(Commons.Server.Scripts.ScriptUnit,Commons.Server.Scripts.ScriptPoint)">JoinUnit(ScriptUnit, ScriptPoint)</h4>
+  <div class="markdown level1 summary"><p><para><para>Let a specific unit connect to this field.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void JoinUnit(ScriptUnit unit, ScriptPoint position = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><span class="parametername">unit</span></td>
+        <td><p><para><para>The ScriptUnit object for that unit</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptPoint.html">ScriptPoint</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p><para><para>Coordinate to be moved</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_JoinUnit_Commons_Server_Scripts_ScriptUnit_Commons_Server_Scripts_ScriptPoint__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Create a temporary field for map 2 and move the player to that field&#10;&#10;Server.CreateField(2)&#10;Server.GetField(2).JoinUnit(unit, Point(unit.x, unit.y))</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_SendCenterLabel_" data-uid="Commons.Server.Scripts.ScriptField.SendCenterLabel*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_SendCenterLabel_System_String_" data-uid="Commons.Server.Scripts.ScriptField.SendCenterLabel(System.String)">SendCenterLabel(String)</h4>
+  <div class="markdown level1 summary"><p><para><para>Display the CenterLabel.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendCenterLabel(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p><para><para>Text of the label to be displayed on the screen (text)</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_SendCenterLabel_System_String__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- "Hello Field!" to all players on the current field. String display&#10;&#10;unit.field.SendCenterLabel("Hello Field!")</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_SetFieldVar_" data-uid="Commons.Server.Scripts.ScriptField.SetFieldVar*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_SetFieldVar_System_Int32_System_Int64_" data-uid="Commons.Server.Scripts.ScriptField.SetFieldVar(System.Int32,System.Int64)">SetFieldVar(Int32, Int64)</h4>
+  <div class="markdown level1 summary"><p><para><para>Set the field variable value.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFieldVar(int id, long value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p><para><para>Variable id</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p><para><para>Variable value</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_SetFieldVar_System_Int32_System_Int64__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Set field variable number 5 of the current field to 64&#10;&#10;unit.field.SetFieldVar(5, 64)</code></pre>
+
+  
+  
+  <a id="Commons_Server_Scripts_ScriptField_SpawnEnemy_" data-uid="Commons.Server.Scripts.ScriptField.SpawnEnemy*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptField_SpawnEnemy_System_Int32_System_Single_System_Single_" data-uid="Commons.Server.Scripts.ScriptField.SpawnEnemy(System.Int32,System.Single,System.Single)">SpawnEnemy(Int32, Single, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>Summon Monster</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SpawnEnemy(int dataID, float x, float y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dataID</span></td>
+        <td><p><para><para>Monster id</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p><para><para>Summon Location x</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p><para><para>Location to summon</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><para><para>Success / false</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Commons_Server_Scripts_ScriptField_SpawnEnemy_System_Int32_System_Single_System_Single__examples">Examples</h5>
+  <pre><code class="lang-lua hljs">-- Summon monster 3 over 2 spaces in my current field&#10;&#10;unit.field.SpawnEnemy(3, unit.x, unit.y + 64)</code></pre>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

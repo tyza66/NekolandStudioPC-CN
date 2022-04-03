@@ -1,0 +1,894 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ScriptPetUnitAI
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ScriptPetUnitAI
+   ">
+    <meta name="generator" content="docfx 1.0.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo" id="logo" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../tutorials/intro.html" title="&#53916;&#53664;&#47532;&#50620;">&#53916;&#53664;&#47532;&#50620;</a>
+                      </li>
+                      <li>
+                          <a href="../api_server/main.html" title="&#49436;&#48260; API">&#49436;&#48260; API</a>
+                      </li>
+                      <li>
+                          <a href="../api_client/main.html" title="&#53364;&#46972;&#51060;&#50616;&#53944; API">&#53364;&#46972;&#51060;&#50616;&#53944; API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.html" title="Commons.Server" class="">Commons.Server</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.NekoEquipSlot.html" title="NekoEquipSlot" class="">NekoEquipSlot</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemOptionType.html" title="NekoItemOptionType" class="">NekoItemOptionType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoItemType.html" title="NekoItemType" class="">NekoItemType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoSkillType.html" title="NekoSkillType" class="">NekoSkillType</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.NekoStats.html" title="NekoStats" class="">NekoStats</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.StatusCode.html" title="StatusCode" class="">StatusCode</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Commons.Server.Scripts.html" title="Commons.Server.Scripts" class="">Commons.Server.Scripts</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptClan.html" title="ScriptClan" class="">ScriptClan</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptColor.html" title="ScriptColor" class="">ScriptColor</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptDropItem.html" title="ScriptDropItem" class="">ScriptDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEnemyUnitAI.html" title="ScriptEnemyUnitAI" class="">ScriptEnemyUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptEventPublisher.html" title="ScriptEventPublisher" class="">ScriptEventPublisher</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptField.html" title="ScriptField" class="">ScriptField</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptObject.html" title="ScriptObject" class="">ScriptObject</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptParty.html" title="ScriptParty" class="">ScriptParty</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPetUnit.html" title="ScriptPetUnit" class="">ScriptPetUnit</a>
+                          </li>
+                          <li class="active">
+                            <a href="Commons.Server.Scripts.ScriptPetUnitAI.html" title="ScriptPetUnitAI" class="active">ScriptPetUnitAI</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptPoint.html" title="ScriptPoint" class="">ScriptPoint</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptRect.html" title="ScriptRect" class="">ScriptRect</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptRoomPlayer.html" title="ScriptRoomPlayer" class="">ScriptRoomPlayer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptServer.html" title="ScriptServer" class="">ScriptServer</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnit.html" title="ScriptUnit" class="">ScriptUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUnitBuff.html" title="ScriptUnitBuff" class="">ScriptUnitBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="Commons.Server.Scripts.ScriptUtility.html" title="ScriptUtility" class="">ScriptUtility</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="network.html" title="network" class="">network</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="network.TGameAnimation.html" title="TGameAnimation" class="">TGameAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameAnimationCommand.html" title="TGameAnimationCommand" class="">TGameAnimationCommand</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameBuff.html" title="TGameBuff" class="">TGameBuff</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCharacter.html" title="TGameCharacter" class="">TGameCharacter</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCollection.html" title="TGameCollection" class="">TGameCollection</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameCommonEvent.html" title="TGameCommonEvent" class="">TGameCommonEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameDropItem.html" title="TGameDropItem" class="">TGameDropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameItem.html" title="TGameItem" class="">TGameItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameJob.html" title="TGameJob" class="">TGameJob</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameLayoutPage.html" title="TGameLayoutPage" class="">TGameLayoutPage</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMapStub.html" title="TGameMapStub" class="">TGameMapStub</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameMonster.html" title="TGameMonster" class="">TGameMonster</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGamePanorama.html" title="TGamePanorama" class="">TGamePanorama</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameResource.html" title="TGameResource" class="">TGameResource</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSkill.html" title="TGameSkill" class="">TGameSkill</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteAction.html" title="TGameSpriteAction" class="">TGameSpriteAction</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameSpriteActionCell.html" title="TGameSpriteActionCell" class="">TGameSpriteActionCell</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameStrings.html" title="TGameStrings" class="">TGameStrings</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TGameTileset.html" title="TGameTileset" class="">TGameTileset</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItem.html" title="TItem" class="">TItem</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TItemOption.html" title="TItemOption" class="">TItemOption</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TOnlinePetData.html" title="TOnlinePetData" class="">TOnlinePetData</a>
+                          </li>
+                          <li class="">
+                            <a href="network.TQuickSlot.html" title="TQuickSlot" class="">TQuickSlot</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Commons.Server.Scripts.ScriptPetUnitAI">
+  
+  
+  <h1 id="Commons_Server_Scripts_ScriptPetUnitAI" data-uid="Commons.Server.Scripts.ScriptPetUnitAI" class="text-break">Class ScriptPetUnitAI
+  </h1>
+  <div class="markdown level0 summary"><p><para><para>펫의 AI 에 접근해 컨트롤 할 수 있는 클래스입니다</para><br></para></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>&#49345;&#49549;</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Commons.Server.Scripts.ScriptObject.html">ScriptObject</a></div>
+    <div class="level2"><span class="xref">Commons.Server.Scripts.ScriptUnitAI</span></div>
+    <div class="level3"><span class="xref">ScriptPetUnitAI</span></div>
+  </div>
+  <!-- <div class="inheritedMembers">
+    <h5>&#49345;&#49549;&#46108; &#47716;&#48260;</h5>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptObject._parent" text="ScriptObject._parent" alt="Commons.Server.Scripts.ScriptObject._parent"/>
+    </div>
+    <div>
+      <xref uid="Commons.Server.Scripts.ScriptObject.customData" text="ScriptObject.customData" alt="Commons.Server.Scripts.ScriptObject.customData"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+    </div>
+    <div>
+      <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+    </div>
+  </div> -->
+  <h6><strong>&#45348;&#51076;&#49828;&#54168;&#51060;&#49828;</strong>: <a class="xref" href="Commons.Server.Scripts.html">Commons.Server.Scripts</a></h6>
+  <h6><strong>&#50612;&#49480;&#48660;&#47532;</strong>: Creator.dll</h6>
+  <h5 id="Commons_Server_Scripts_ScriptPetUnitAI_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[MoonSharpUserData]
+public class ScriptPetUnitAI : ScriptUnitAI</code></pre>
+  </div>
+  <h5 id="Commons_Server_Scripts_ScriptPetUnitAI_examples"><strong>&#50696;&#51228;</strong></h5>
+  <pre><code class="lang-lua hljs">-- 예제 1&#10;-- 펫 AI 지정&#10;&#10;Server.SetPetAI(&#10;        21, -- 펫이 될 캐릭터 id&#10;        function(pet,ai,event)&#10;&#10;                -- 최초 PetAI 등록시 실행&#10;                if(event == AI_INIT) then&#10;                        ai.customData.timer = 1;&#10;                end&#10;&#10;                -- 2초마다 실행&#10;                if (event == AI_UPDATE) then&#10;                        -- 200만큼 거리가 멀어지면 주인을 따라감 &#10;                        -- 400만큼 멀어지면 주인의 위치로 순간이동&#10;                        -- ai.SetFollowMaster(true, 200, 400)&#10;&#10;                        -- 타겟이 없으면 주인을 따라다님&#10;                        if (ai.GetTargetUnit() == nil) then&#10;                                ai.SetFollowMaster(true, 200, 400)&#10;                        end&#10;&#10;                        -- 기본100,200&#10;                        -- ai.SetFollowMaster(true)&#10;&#10;                        -- 가장 가까운 적 유닛을 타겟으로 지정&#10;                        ai.SetNearTarget(2, 200) &#10;&#10;                        -- 펫의 타겟이 존재한다면 스킬 사용&#10;                        -- 스킬은 기본적으로 타겟을 향해 발사됨&#10;                        if (ai.GetTargetUnit() ~=nil) then&#10;                                -- 타겟이 정해지면 따라다니는것을 멈춤&#10;                                ai.SetFollowMaster(false)&#10;                                ai.StopMove()&#10;&#10;                                -- 타겟이 정해지면 타겟을 따라다니면서 공격&#10;                                ai.MoveToPosition(ai.GetTargetUnit().x,ai.GetTargetUnit().y)&#10;                                -- 주인에게 버프추가&#10;                                ai.AddMasterBuff(15)&#10;                                -- 타겟 방향으로 발사&#10;                                ai.UseSkill(23) &#10;                                -- 펫의 주인 위치에서 타겟 방향으로 발사&#10;                                ai.UseSkill(&#10;                                22&#10;                                ,nil&#10;                                ,Point(ai.GetMasterUnit().x,ai.GetMasterUnit().y))&#10;                        end&#10;&#10;                        -- 커스텀 데이터를 이용한 타이머 6초에 한번씩 주위의 드롭된아이템 획득&#10;                        ai.customData.timer = ai.customData.timer + 1;&#10;                        if (ai.customData.timer == 3) then&#10;                                -- 반경 100의 거리 안에 들어오는 드롭 아이템 획득&#10;                                ai.AcquireNearDropItem(100)&#10;                                ai.customData.timer = 0;&#10;                        end&#10;                end&#10;        end&#10;)</code></pre>
+
+  <h3 id="methods">&#54632;&#49688;
+  </h3>
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_AcquireNearDropItem_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.AcquireNearDropItem*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_AcquireNearDropItem_System_Single_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.AcquireNearDropItem(System.Single)">AcquireNearDropItem(Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>지정된 거리 안에서 가장 가까운 아이템을 획득합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AcquireNearDropItem(float dist = 200F)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dist</span></td>
+        <td><p><para><para>같은 스킬의 유지 여부 (기본:True)</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">&#48152;&#54872;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_AddMasterBuff_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.AddMasterBuff*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_AddMasterBuff_System_Int32_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.AddMasterBuff(System.Int32)">AddMasterBuff(Int32)</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어 유닛에게 버프를 부여합니다.</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddMasterBuff(int buffID)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">buffID</span></td>
+        <td><p><para><para>상태 ID</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_Distance_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.Distance*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_Distance_System_Single_System_Single_System_Single_System_Single_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.Distance(System.Single,System.Single,System.Single,System.Single)">Distance(Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>두 유닛 사이의 거리를 계산해 반환합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Distance(float pos1X, float pos1Y, float pos2X, float pos2Y)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos1X</span></td>
+        <td><p><para><para>1의 좌표 X</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos1Y</span></td>
+        <td><p><para><para>1의 좌표 Y</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos2X</span></td>
+        <td><p><para><para>2의 좌표 X</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos2Y</span></td>
+        <td><p><para><para>2의 좌표 Y</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">&#48152;&#54872;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_DistanceSquard_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.DistanceSquard*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_DistanceSquard_System_Single_System_Single_System_Single_System_Single_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.DistanceSquard(System.Single,System.Single,System.Single,System.Single)">DistanceSquard(Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>두 유닛 간 거리를 계산해, 해당 값의 제곱 값을 반환합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DistanceSquard(float pos1X, float pos1Y, float pos2X, float pos2Y)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos1X</span></td>
+        <td><p><para><para>1의 좌표 X</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos1Y</span></td>
+        <td><p><para><para>1의 좌표 Y</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos2X</span></td>
+        <td><p><para><para>2의 좌표 X</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pos2Y</span></td>
+        <td><p><para><para>2의 좌표 Y</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">&#48152;&#54872;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_GetMasterUnit_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.GetMasterUnit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_GetMasterUnit" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.GetMasterUnit">GetMasterUnit()</h4>
+  <div class="markdown level1 summary"><p><para><para>현재 펫의 주인 유닛을 가져옵니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit GetMasterUnit()</code></pre>
+  </div>
+  <h5 class="returns">&#48152;&#54872;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_GetTargetUnit_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.GetTargetUnit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_GetTargetUnit" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.GetTargetUnit">GetTargetUnit()</h4>
+  <div class="markdown level1 summary"><p><para><para>현재 펫 타겟의 유닛을 가져옵니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptUnit GetTargetUnit()</code></pre>
+  </div>
+  <h5 class="returns">&#48152;&#54872;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_GetTargetUnitID_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.GetTargetUnitID*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_GetTargetUnitID" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.GetTargetUnitID">GetTargetUnitID()</h4>
+  <div class="markdown level1 summary"><p><para><para>현재 펫의 타겟 ID를 가져옵니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long GetTargetUnitID()</code></pre>
+  </div>
+  <h5 class="returns">&#48152;&#54872;</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_MoveToPosition_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.MoveToPosition*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_MoveToPosition_System_Single_System_Single_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.MoveToPosition(System.Single,System.Single)">MoveToPosition(Single, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>펫을 해당 위치로 이동 시킵니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveToPosition(float posx, float posy)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">posx</span></td>
+        <td><p><para><para>이동할 위치 X</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">posy</span></td>
+        <td><p><para><para>이동할 위치 Y</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_SetFollowMaster_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetFollowMaster*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_SetFollowMaster_System_Boolean_System_Single_System_Single_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetFollowMaster(System.Boolean,System.Single,System.Single)">SetFollowMaster(Boolean, Single, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>플레이어 유닛을 따라다닐 것인지 설정합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFollowMaster(bool enable, float followDist = 100F, float teleportDist = 200F)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enable</span></td>
+        <td><p><para><para>여부 (따라다닌다:True, 따라다니지 않는다:False)</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">followDist</span></td>
+        <td><p><para><para>펫과 주인이 얼마나 떨어져야 따라올 것인지 설정합니다</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">teleportDist</span></td>
+        <td><p><para><para>펫과 주인이 얼마나 떨어져야 주인의 위치로 순간이동 할 것인지 설정합니다</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_SetNearTarget_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetNearTarget*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_SetNearTarget_System_Int32_System_Single_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetNearTarget(System.Int32,System.Single)">SetNearTarget(Int32, Single)</h4>
+  <div class="markdown level1 summary"><p><para><para>현재 몬스터가 있는 맵에서 가장 가까운 유닛을 타겟으로 지정합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetNearTarget(int findType = -1, float dist = 200F)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">findType</span></td>
+        <td><p><para><para>탐색할 유닛 타입 (0: 플레이어, 1: 이벤트 유닛 , 2: 적)</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dist</span></td>
+        <td><p><para><para>탐색할 유닛 거리 (기본값: 200)</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_SetTargetUnit_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetTargetUnit*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_SetTargetUnit_Commons_Server_Scripts_ScriptUnit_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetTargetUnit(Commons.Server.Scripts.ScriptUnit)">SetTargetUnit(ScriptUnit)</h4>
+  <div class="markdown level1 summary"><p><para><para>펫의 타겟을 설정합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTargetUnit(ScriptUnit unit)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptUnit.html">ScriptUnit</a></td>
+        <td><span class="parametername">unit</span></td>
+        <td><p><para><para>펫의 타겟이 될 유닛</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_SetTargetUnitID_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetTargetUnitID*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_SetTargetUnitID_System_Int64_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.SetTargetUnitID(System.Int64)">SetTargetUnitID(Int64)</h4>
+  <div class="markdown level1 summary"><p><para><para>유닛 ID 로 타겟을 설정합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTargetUnitID(long unitID)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">unitID</span></td>
+        <td><p><para><para>펫의 타겟이 될 유닛의 ID</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_StopMove_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.StopMove*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_StopMove" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.StopMove">StopMove()</h4>
+  <div class="markdown level1 summary"><p><para><para>이동하는 펫을 멈춥니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopMove()</code></pre>
+  </div>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_UseSkill_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.UseSkill*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_UseSkill_System_Int32_Commons_Server_Scripts_ScriptPoint_Commons_Server_Scripts_ScriptPoint_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.UseSkill(System.Int32,Commons.Server.Scripts.ScriptPoint,Commons.Server.Scripts.ScriptPoint)">UseSkill(Int32, ScriptPoint, ScriptPoint)</h4>
+  <div class="markdown level1 summary"><p><para><para>펫의 스킬을 사용합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UseSkill(int skillID, ScriptPoint dir = null, ScriptPoint pos = null)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">skillID</span></td>
+        <td><p><para><para>사용할 스킬 ID</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptPoint.html">ScriptPoint</a></td>
+        <td><span class="parametername">dir</span></td>
+        <td><p><para><para>스킬의 방향</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptPoint.html">ScriptPoint</a></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p><para><para>스킬의 시작 위치</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  <a id="Commons_Server_Scripts_ScriptPetUnitAI_UseSkillToPosition_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.UseSkillToPosition*"></a>
+  <h4 id="Commons_Server_Scripts_ScriptPetUnitAI_UseSkillToPosition_System_Int32_Commons_Server_Scripts_ScriptPoint_Commons_Server_Scripts_ScriptPoint_" data-uid="Commons.Server.Scripts.ScriptPetUnitAI.UseSkillToPosition(System.Int32,Commons.Server.Scripts.ScriptPoint,Commons.Server.Scripts.ScriptPoint)">UseSkillToPosition(Int32, ScriptPoint, ScriptPoint)</h4>
+  <div class="markdown level1 summary"><p><para><para>펫의 스킬을 사용합니다</para><br></para></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">&#49440;&#50616;</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UseSkillToPosition(int skillID, ScriptPoint dirPosition = null, ScriptPoint pos = null)</code></pre>
+  </div>
+  <h5 class="parameters">&#47588;&#44060; &#48320;&#49688;(&#51064;&#51088;)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>&#53440;&#51077;</th>
+        <th>&#51060;&#47492;</th>
+        <th>&#49444;&#47749;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">skillID</span></td>
+        <td><p><para><para>사용할 스킬 ID</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptPoint.html">ScriptPoint</a></td>
+        <td><span class="parametername">dirPosition</span></td>
+        <td><p><para><para>스킬이 나아갈 위치</para><br></para></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Commons.Server.Scripts.ScriptPoint.html">ScriptPoint</a></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p><para><para>스킬의 시작 위치</para><br></para></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

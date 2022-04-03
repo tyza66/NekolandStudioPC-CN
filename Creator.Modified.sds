@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<desktop scan="1" scanned="20210216094141" built="20210216094353" lang="zh" pane="TLogPane" col="4" row="Text">
+  <language id="zh" autoime="0" autokeyboard="0"/>
+  <triggers>
+    <item class="TValidateTrigger" position="3"/>
+  </triggers>
+  <sheet>
+    <columns>
+      <item class="TFlagsColumn" width="38"/>
+      <item class="TPathColumn" width="48"/>
+      <item class="TTranslationStatusColumn" width="66"/>
+      <item class="TOriginalColumn" width="95"/>
+      <item class="TTranslationColumn" lang="zh" width="95"/>
+    </columns>
+  </sheet>
+  <view node="TNetFormNode" view="TFormEditor"/>
+  <path>
+    <item>All</item>
+    <item>Creator.Modified.exe</item>
+    <item>Forms</item>
+    <item> .′</item>
+  </path>
+</desktop>
